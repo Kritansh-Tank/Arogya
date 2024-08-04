@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-poppins: Poppins;
+    --font-be-vietnam: "Be Vietnam";
+  
+    /* font sizes */
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-lg: 1.125rem;
+    --font-size-mini: 0.938rem;
+    --font-size-base: 1rem;
+  
+    /* Colors */
+    --light-yellow: #f7f1e8;
+    --white: #fff;
+    --primary-col: #1778f2;
+    --text-heading: #030631;
+    --footer-col: rgba(16, 78, 152, 0.94);
+    --badges-col: #5da1f6;
+    --color-silver: #c3c3c3;
+    --secondary-text-color: #147771;
+    --color-black: #000;
+  
+    /* Gaps */
+    --gap-xl: 1.25rem;
+    --gap-smi: 0.812rem;
+    --gap-5xs: 0.5rem;
+    --gap-15xl: 2.125rem;
+    --gap-mid: 1.062rem;
+    --gap-base: 1rem;
+    --gap-3xs: 0.625rem;
+  
+    /* Paddings */
+    --padding-3xs: 0.625rem;
+    --padding-7xs: 0.375rem;
+    --padding-8xs: 0.312rem;
+    --padding-lg: 1.125rem;
+    --padding-45xl: 4rem;
+    --padding-xl: 1.25rem;
+    --padding-13xl: 2rem;
+    --padding-11xs-5: 0.093rem;
+    --padding-12xs: 0.062rem;
+    --padding-11xs: 0.125rem;
+    --padding-7xl: 1.625rem;
+    --padding-5xl: 1.5rem;
+    --padding-base-5: 0.968rem;
+    --padding-9xs: 0.25rem;
+    --padding-5xs: 0.5rem;
+    --padding-smi-7: 0.793rem;
+  
+    /* Border radiuses */
+    --br-xs: 12px;
+    --br-13xl: 32px;
+    --br-11xl: 30px;
+    --br-5xs: 8px;
+  }
+  

@@ -1,0 +1,2773 @@
+.logo-icon {
+    width: 0.875rem;
+    height: 0.875rem;
+    position: relative;
+}
+
+.jammedical,
+.jammedical-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.jammedical {
+    overflow: hidden;
+    padding: var(--padding-11xs);
+    width: 1.125rem;
+    height: 1.125rem;
+}
+
+.jammedical-wrapper {
+    height: 2.125rem;
+    width: 2.125rem;
+    border-radius: var(--br-13xl);
+    background-color: var(--primary-col);
+    padding: 0.5rem;
+}
+
+.arogya-24x7 {
+    text-decoration: none;
+    position: relative;
+    line-height: 1.65rem;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    min-width: 6.875rem;
+    white-space: nowrap;
+}
+
+.logo-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.125rem;
+    cursor: pointer;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-be-vietnam);
+}
+
+.home {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    color: inherit;
+    display: inline-block;
+    min-width: 2.813rem;
+}
+
+.nav-links-comp {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xs) 0;
+    cursor: pointer;
+}
+
+.home1 {
+    text-decoration: none;
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.02em;
+    color: inherit;
+    white-space: nowrap;
+}
+
+.nav-links-comp1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xs) 0;
+    cursor: pointer;
+}
+
+.home2 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    color: inherit;
+    display: inline-block;
+    min-width: 2.375rem;
+}
+
+.nav-links-comp2 {
+    border-bottom: 2px solid var(--primary-col);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xs) 0 var(--padding-11xs);
+    color: var(--primary-col);
+}
+
+.home3 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    color: inherit;
+    display: inline-block;
+    min-width: 4.375rem;
+    white-space: nowrap;
+}
+
+.nav-links-comp3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xs) 0;
+    cursor: pointer;
+}
+
+.home4 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    color: inherit;
+    display: inline-block;
+    min-width: 5.313rem;
+    white-space: nowrap;
+}
+
+.nav-links-comp4,
+.navigation {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-links-comp4 {
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xs) 0;
+}
+
+.navigation {
+    width: 31.188rem;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.062rem;
+    max-width: 100%;
+    color: var(--color-black);
+}
+
+.book-appointment {
+    text-decoration: none;
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 7.563rem;
+}
+
+.book-appointment-wrapper {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-2xs) var(--padding-xs);
+    background-color: var(--primary-col);
+    border-radius: var(--br-9xs);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+}
+
+.book-appointment-wrapper:hover {
+    background-color: #3091ff;
+}
+
+.ionlocation-outline-icon {
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.mumbai {
+    text-decoration: none;
+    position: relative;
+    line-height: 1.063rem;
+    color: inherit;
+    display: inline-block;
+    min-width: 3.75rem;
+}
+
+.ionlocation-outline-parent,
+.mumbai-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mumbai-wrapper {
+    justify-content: center;
+    padding: var(--padding-11xs) 0 0;
+}
+
+.ionlocation-outline-parent {
+    justify-content: flex-start;
+    gap: 0.375rem;
+}
+
+.vector-icon {
+    width: 0.5rem;
+    height: 0.25rem;
+    position: relative;
+    object-fit: contain;
+}
+
+.frame-container,
+.vector-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame-container {
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    cursor: pointer;
+}
+
+.frame-child {
+    height: 2.125rem;
+    width: 2.125rem;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.hi-james {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    min-width: 4.25rem;
+    white-space: nowrap;
+}
+
+.user-dropdown-icon {
+    height: 0.225rem;
+    width: 0.406rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.frame-div,
+.frame-group,
+.frame-parent,
+.hi-james-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame-div,
+.hi-james-parent {
+    gap: var(--gap-5xs);
+}
+
+.frame-div {
+    cursor: pointer;
+}
+
+.frame-group,
+.frame-parent {
+    gap: 2.375rem;
+}
+
+.frame-parent {
+    gap: 2.5rem;
+    max-width: 100%;
+    color: var(--text-heading);
+}
+
+.logo-group-parent,
+.tests-list-page-inner {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+.logo-group-parent {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+
+.tests-list-page-inner {
+    background-color: var(--white);
+    border-bottom: 1px solid #e9e9e9;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.968rem var(--padding-44xl) 0.875rem;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: #030632;
+    font-family: var(--font-poppins);
+}
+
+.downloader-3-icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    right: 0;
+    bottom: 0rem;
+    left: 0;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.explore-our-comprehensive,
+.lists-packages {
+    margin: 0;
+}
+
+.book-your-health,
+.explore-our-comprehensive-container {
+    margin: 0;
+    position: relative;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.explore-our-comprehensive-container {
+    font-size: 1.5rem;
+}
+
+.book-your-health {
+    width: 20.875rem;
+    font-size: var(--font-size-xl);
+    letter-spacing: 0.02em;
+    line-height: 1.75rem;
+    display: inline-block;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.75rem;
+}
+
+.book-now {
+    position: relative;
+    font-size: var(--font-size-base);
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 4.625rem;
+}
+
+.book-now-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.images-slider-section-content-inner {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-3xs) 2.875rem;
+    background-color: var(--primary-col);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.images-slider-section-content,
+.images-slider-section-content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+    flex-shrink: 0;
+}
+
+.images-slider-section-content {
+    flex-direction: column;
+    gap: var(--gap-5xl);
+    z-index: 1;
+}
+
+.images-slider-section-content-wrapper {
+    width: 39.688rem;
+    flex-direction: row;
+}
+
+.active-indicator,
+.indicators {
+    height: 0.625rem;
+    width: 0.625rem;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-black);
+}
+
+.indicators {
+    width: 0.375rem;
+    height: 0.375rem;
+    background-color: var(--color-dimgray);
+}
+
+.indicators-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs) 0 0;
+}
+
+.frame-item {
+    width: 0.375rem;
+    height: 0.375rem;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-dimgray);
+}
+
+.image-count-indicators-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs) 0 0;
+}
+
+.frame-inner {
+    width: 0.375rem;
+    height: 0.375rem;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-dimgray);
+}
+
+.image-count-indicators-child {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs) 0 0;
+}
+
+.ellipse-div {
+    width: 0.375rem;
+    height: 0.375rem;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-dimgray);
+}
+
+.image-count-indicators-inner1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs) 0 0;
+}
+
+.frame-child1 {
+    width: 0.375rem;
+    height: 0.375rem;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-dimgray);
+}
+
+.image-count-indicators-inner2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs) 0 0;
+}
+
+.frame-child2 {
+    width: 0.375rem;
+    height: 0.375rem;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--color-dimgray);
+}
+
+.image-count-indicators,
+.image-count-indicators-inner3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.image-count-indicators-inner3 {
+    flex-direction: column;
+    padding: var(--padding-11xs) 0 0;
+}
+
+.image-count-indicators {
+    flex-direction: row;
+    gap: 0.312rem;
+    flex-shrink: 0;
+}
+
+.offer-slider-section,
+.offers {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.offer-slider-section {
+    height: 16.5rem;
+    flex: 1;
+    border-radius: var(--br-xs);
+    background-color: #e7e7e7;
+    overflow-x: auto;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 2.437rem 38.625rem 2.375rem 3.687rem;
+    position: relative;
+    gap: 13.625rem;
+    overflow: hidden;
+}
+
+.offers {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0 0 var(--padding-2xs);
+}
+
+.book-your-test {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 1.875rem;
+    font-weight: 600;
+    font-family: inherit;
+    white-space: pre-wrap;
+}
+
+.frame-child3 {
+    width: 6.25rem;
+    height: 0.25rem;
+}
+
+.book-your-test-now-parent {
+    width: 14.813rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+
+.iconamoonsearch-light {
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.search {
+    text-decoration: none;
+    flex: 1;
+    position: relative;
+    font-size: var(--font-size-mini);
+    font-family: var(--font-poppins);
+    color: var(--text-heading);
+    text-align: left;
+}
+
+.packages-search-bar {
+    cursor: pointer;
+    border: 1px solid var(--shadow);
+    padding: var(--padding-7xs) var(--padding-smi);
+    background-color: transparent;
+    flex: 1;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+
+.packages-search-bar:hover {
+    background-color: rgba(0, 173, 163, 0.09);
+    border: 1px solid #00ada3;
+    box-sizing: border-box;
+}
+
+.filters1 {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    min-width: 2.5rem;
+}
+
+.solarfilter-linear-icon {
+    height: 1.563rem;
+    width: 1.563rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-10xs);
+    cursor: pointer;
+}
+
+.filter-search-group,
+.frame-parent2 {
+    display: flex;
+    flex-direction: row;
+    gap: var(--gap-xl);
+}
+
+.filter-search-group {
+    width: 11.813rem;
+    align-items: center;
+    justify-content: center;
+    font-size: var(--font-size-mini);
+    color: var(--text-heading);
+}
+
+.frame-parent2 {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.rectangle-div {
+    align-self: stretch;
+    height: 0.063rem;
+    position: relative;
+    background-color: var(--shadow);
+}
+
+.frame-parent1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+    font-size: 1.5rem;
+    color: var(--color-black);
+}
+
+.image-icon {
+    margin-top: -1.938rem;
+    height: 10.75rem;
+    width: 9.25rem;
+    position: relative;
+    border-radius: var(--br-xs) 0 0 var(--br-xs);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.complete-blood-count {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.test-names {
+    width: 12.938rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs);
+    box-sizing: border-box;
+}
+
+.rs-1000,
+.rs-500 {
+    position: relative;
+    display: inline-block;
+}
+
+.rs-500 {
+    height: 1.5rem;
+    font-weight: 600;
+    min-width: 3.438rem;
+}
+
+.rs-1000 {
+    font-weight: 500;
+    min-width: 2.813rem;
+    flex-shrink: 0;
+}
+
+.price-dividers-icon {
+    width: 2.725rem;
+    height: 0.388rem;
+    position: absolute;
+    margin: 0 !important;
+    right: 0.025rem;
+    bottom: 0.144rem;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.old-prices {
+    align-self: stretch;
+    height: 0.938rem;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.discounted-prices,
+.old-prices,
+.prices {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.discounted-prices {
+    width: 2.875rem;
+    flex-direction: column;
+    padding: var(--padding-8xs-5) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-xs);
+}
+
+.prices {
+    flex-direction: row;
+    gap: var(--gap-10xs);
+}
+
+.book-appointment1 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 3.5rem;
+}
+
+.book-appointment-btn {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-7xs) var(--padding-3xs);
+    background-color: var(--badges-col);
+    border-radius: var(--br-9xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.book-appointment-btn1:hover,
+.book-appointment-btn2:hover,
+.book-appointment-btn3:hover,
+.book-appointment-btn4:hover,
+.book-appointment-btn5:hover,
+.book-appointment-btn6:hover,
+.book-appointment-btn7:hover,
+.book-appointment-btn8:hover,
+.book-appointment-btn:hover {
+    background-color: var(--color-cornflowerblue-100);
+}
+
+.book-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-12xs);
+}
+
+.price-details {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+}
+
+.book-test-card,
+.card-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.card-details {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-39xl);
+}
+
+.book-test-card {
+    height: 8.375rem;
+    width: 24.875rem;
+    box-shadow: 0 0 20px rgba(14, 199, 190, 0.25);
+    border-radius: var(--br-xs);
+    background-color: var(--white);
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: var(--padding-xs) var(--padding-mini) var(--padding-smi) 0;
+    box-sizing: border-box;
+    gap: var(--gap-smi);
+    max-width: 100%;
+}
+
+.image-icon1 {
+    margin-top: -1.938rem;
+    height: 10.75rem;
+    width: 9.25rem;
+    position: relative;
+    border-radius: var(--br-xs) 0 0 var(--br-xs);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.complete-blood-count1 {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.complete-blood-count-wrapper {
+    width: 12.938rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs);
+    box-sizing: border-box;
+}
+
+.rs-10001,
+.rs-5001 {
+    position: relative;
+    display: inline-block;
+}
+
+.rs-5001 {
+    height: 1.5rem;
+    font-weight: 600;
+    min-width: 3.438rem;
+}
+
+.rs-10001 {
+    font-weight: 500;
+    min-width: 2.813rem;
+    flex-shrink: 0;
+}
+
+.line-icon {
+    width: 2.725rem;
+    height: 0.388rem;
+    position: absolute;
+    margin: 0 !important;
+    right: 0.025rem;
+    bottom: 0.144rem;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.rs-1000-parent {
+    align-self: stretch;
+    height: 0.938rem;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.price-frame,
+.price-frame-inner,
+.rs-1000-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.price-frame-inner {
+    width: 2.875rem;
+    flex-direction: column;
+    padding: var(--padding-8xs-5) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-xs);
+}
+
+.price-frame {
+    flex-direction: row;
+    gap: var(--gap-10xs);
+}
+
+.book-appointment2 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 3.5rem;
+}
+
+.book-appointment-btn-wrapper,
+.book-appointment-btn1 {
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.book-appointment-btn1 {
+    padding: var(--padding-7xs) var(--padding-3xs);
+    background-color: var(--badges-col);
+    border-radius: var(--br-9xs);
+    flex-direction: row;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.book-appointment-btn-wrapper {
+    padding: 0 0 var(--padding-12xs);
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.price-frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+}
+
+.book-test-card1,
+.frame-parent3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-parent3 {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-39xl);
+}
+
+.book-test-card1 {
+    height: 8.375rem;
+    width: 24.875rem;
+    box-shadow: 0 0 20px rgba(14, 199, 190, 0.25);
+    border-radius: var(--br-xs);
+    background-color: var(--white);
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: var(--padding-xs) var(--padding-mini) var(--padding-smi) 0;
+    box-sizing: border-box;
+    gap: var(--gap-smi);
+    max-width: 100%;
+}
+
+.image-icon2 {
+    margin-top: -1.938rem;
+    height: 10.75rem;
+    width: 9.25rem;
+    position: relative;
+    border-radius: var(--br-xs) 0 0 var(--br-xs);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.complete-blood-count2 {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.complete-blood-count-container {
+    width: 12.938rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs);
+    box-sizing: border-box;
+}
+
+.rs-10002,
+.rs-5002 {
+    position: relative;
+    display: inline-block;
+}
+
+.rs-5002 {
+    height: 1.5rem;
+    font-weight: 600;
+    min-width: 3.438rem;
+}
+
+.rs-10002 {
+    font-weight: 500;
+    min-width: 2.813rem;
+    flex-shrink: 0;
+}
+
+.frame-child4 {
+    width: 2.725rem;
+    height: 0.388rem;
+    position: absolute;
+    margin: 0 !important;
+    right: 0.025rem;
+    bottom: 0.144rem;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.rs-1000-group {
+    align-self: stretch;
+    height: 0.938rem;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.price-frame-child,
+.price-frame1,
+.rs-1000-group {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.price-frame-child {
+    width: 2.875rem;
+    flex-direction: column;
+    padding: var(--padding-8xs-5) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-xs);
+}
+
+.price-frame1 {
+    flex-direction: row;
+    gap: var(--gap-10xs);
+}
+
+.book-appointment3 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 3.5rem;
+}
+
+.book-appointment-btn-container,
+.book-appointment-btn2 {
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.book-appointment-btn2 {
+    padding: var(--padding-7xs) var(--padding-3xs);
+    background-color: var(--badges-col);
+    border-radius: var(--br-9xs);
+    flex-direction: row;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.book-appointment-btn-container {
+    padding: 0 0 var(--padding-12xs);
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.price-frame-group {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+}
+
+.book-test-card2,
+.frame-parent4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-parent4 {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-39xl);
+}
+
+.book-test-card2 {
+    height: 8.375rem;
+    width: 24.875rem;
+    box-shadow: 0 0 20px rgba(14, 199, 190, 0.25);
+    border-radius: var(--br-xs);
+    background-color: var(--white);
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: var(--padding-xs) var(--padding-mini) var(--padding-smi) 0;
+    box-sizing: border-box;
+    gap: var(--gap-smi);
+    max-width: 100%;
+}
+
+.image-icon3 {
+    margin-top: -1.938rem;
+    height: 10.75rem;
+    width: 9.25rem;
+    position: relative;
+    border-radius: var(--br-xs) 0 0 var(--br-xs);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.complete-blood-count3 {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.complete-blood-count-frame {
+    width: 12.938rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs);
+    box-sizing: border-box;
+}
+
+.rs-10003,
+.rs-5003 {
+    position: relative;
+    display: inline-block;
+}
+
+.rs-5003 {
+    height: 1.5rem;
+    font-weight: 600;
+    min-width: 3.438rem;
+}
+
+.rs-10003 {
+    font-weight: 500;
+    min-width: 2.813rem;
+    flex-shrink: 0;
+}
+
+.frame-child5 {
+    width: 2.725rem;
+    height: 0.388rem;
+    position: absolute;
+    margin: 0 !important;
+    right: 0.025rem;
+    bottom: 0.144rem;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.rs-1000-container {
+    align-self: stretch;
+    height: 0.938rem;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.price-frame-inner1,
+.price-frame2,
+.rs-1000-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.price-frame-inner1 {
+    width: 2.875rem;
+    flex-direction: column;
+    padding: var(--padding-8xs-5) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-xs);
+}
+
+.price-frame2 {
+    flex-direction: row;
+    gap: var(--gap-10xs);
+}
+
+.book-appointment4 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 3.5rem;
+}
+
+.book-appointment-btn3 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-7xs) var(--padding-3xs);
+    background-color: var(--badges-col);
+    border-radius: var(--br-9xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.book-appointment-btn-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-12xs);
+}
+
+.price-frame-container {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+}
+
+.book-test-card3,
+.frame-parent5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-parent5 {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-39xl);
+}
+
+.book-test-card3 {
+    height: 8.375rem;
+    width: 24.875rem;
+    box-shadow: 0 0 20px rgba(14, 199, 190, 0.25);
+    border-radius: var(--br-xs);
+    background-color: var(--white);
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: var(--padding-xs) var(--padding-mini) var(--padding-smi) 0;
+    box-sizing: border-box;
+    gap: var(--gap-smi);
+    max-width: 100%;
+}
+
+.image-icon4 {
+    margin-top: -1.938rem;
+    height: 10.75rem;
+    width: 9.25rem;
+    position: relative;
+    border-radius: var(--br-xs) 0 0 var(--br-xs);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.complete-blood-count4 {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.complete-blood-count-wrapper1 {
+    width: 12.938rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs);
+    box-sizing: border-box;
+}
+
+.rs-10004,
+.rs-5004 {
+    position: relative;
+    display: inline-block;
+}
+
+.rs-5004 {
+    height: 1.5rem;
+    font-weight: 600;
+    min-width: 3.438rem;
+}
+
+.rs-10004 {
+    font-weight: 500;
+    min-width: 2.813rem;
+    flex-shrink: 0;
+}
+
+.frame-child6 {
+    width: 2.725rem;
+    height: 0.388rem;
+    position: absolute;
+    margin: 0 !important;
+    right: 0.025rem;
+    bottom: 0.144rem;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.rs-1000-parent1 {
+    align-self: stretch;
+    height: 0.938rem;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.price-frame-inner2,
+.price-frame3,
+.rs-1000-parent1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.price-frame-inner2 {
+    width: 2.875rem;
+    flex-direction: column;
+    padding: var(--padding-8xs-5) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-xs);
+}
+
+.price-frame3 {
+    flex-direction: row;
+    gap: var(--gap-10xs);
+}
+
+.book-appointment5 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 3.5rem;
+}
+
+.book-appointment-btn4,
+.frame-button {
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.book-appointment-btn4 {
+    padding: var(--padding-7xs) var(--padding-3xs);
+    background-color: var(--badges-col);
+    border-radius: var(--br-9xs);
+    flex-direction: row;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.frame-button {
+    padding: 0 0 var(--padding-12xs);
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.price-frame-parent1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+}
+
+.book-test-card4,
+.frame-parent6 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-parent6 {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-39xl);
+}
+
+.book-test-card4 {
+    height: 8.375rem;
+    width: 24.875rem;
+    box-shadow: 0 0 20px rgba(14, 199, 190, 0.25);
+    border-radius: var(--br-xs);
+    background-color: var(--white);
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: var(--padding-xs) var(--padding-mini) var(--padding-smi) 0;
+    box-sizing: border-box;
+    gap: var(--gap-smi);
+    max-width: 100%;
+}
+
+.image-icon5 {
+    margin-top: -1.938rem;
+    height: 10.75rem;
+    width: 9.25rem;
+    position: relative;
+    border-radius: var(--br-xs) 0 0 var(--br-xs);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.complete-blood-count5 {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.complete-blood-count-wrapper2 {
+    width: 12.938rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs);
+    box-sizing: border-box;
+}
+
+.rs-10005,
+.rs-5005 {
+    position: relative;
+    display: inline-block;
+}
+
+.rs-5005 {
+    height: 1.5rem;
+    font-weight: 600;
+    min-width: 3.438rem;
+}
+
+.rs-10005 {
+    font-weight: 500;
+    min-width: 2.813rem;
+    flex-shrink: 0;
+}
+
+.frame-child7 {
+    width: 2.725rem;
+    height: 0.388rem;
+    position: absolute;
+    margin: 0 !important;
+    right: 0.025rem;
+    bottom: 0.144rem;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.rs-1000-parent2 {
+    align-self: stretch;
+    height: 0.938rem;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.price-frame-inner3,
+.price-frame4,
+.rs-1000-parent2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.price-frame-inner3 {
+    width: 2.875rem;
+    flex-direction: column;
+    padding: var(--padding-8xs-5) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-xs);
+}
+
+.price-frame4 {
+    flex-direction: row;
+    gap: var(--gap-10xs);
+}
+
+.book-appointment6 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 3.5rem;
+}
+
+.book-appointment-btn-wrapper1,
+.book-appointment-btn5 {
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.book-appointment-btn5 {
+    padding: var(--padding-7xs) var(--padding-3xs);
+    background-color: var(--badges-col);
+    border-radius: var(--br-9xs);
+    flex-direction: row;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.book-appointment-btn-wrapper1 {
+    padding: 0 0 var(--padding-12xs);
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.price-frame-parent2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+}
+
+.book-test-card5,
+.frame-parent7 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-parent7 {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-39xl);
+}
+
+.book-test-card5 {
+    height: 8.375rem;
+    width: 24.875rem;
+    box-shadow: 0 0 20px rgba(14, 199, 190, 0.25);
+    border-radius: var(--br-xs);
+    background-color: var(--white);
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: var(--padding-xs) var(--padding-mini) var(--padding-smi) 0;
+    box-sizing: border-box;
+    gap: var(--gap-smi);
+    max-width: 100%;
+}
+
+.image-icon6 {
+    margin-top: -1.938rem;
+    height: 10.75rem;
+    width: 9.25rem;
+    position: relative;
+    border-radius: var(--br-xs) 0 0 var(--br-xs);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.complete-blood-count6 {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.complete-blood-count-wrapper3 {
+    width: 12.938rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs);
+    box-sizing: border-box;
+}
+
+.rs-10006,
+.rs-5006 {
+    position: relative;
+    display: inline-block;
+}
+
+.rs-5006 {
+    height: 1.5rem;
+    font-weight: 600;
+    min-width: 3.438rem;
+}
+
+.rs-10006 {
+    font-weight: 500;
+    min-width: 2.813rem;
+    flex-shrink: 0;
+}
+
+.frame-child8 {
+    width: 2.725rem;
+    height: 0.388rem;
+    position: absolute;
+    margin: 0 !important;
+    right: 0.025rem;
+    bottom: 0.144rem;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.rs-1000-parent3 {
+    align-self: stretch;
+    height: 0.938rem;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.price-frame-inner4,
+.price-frame5,
+.rs-1000-parent3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.price-frame-inner4 {
+    width: 2.875rem;
+    flex-direction: column;
+    padding: var(--padding-8xs-5) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-xs);
+}
+
+.price-frame5 {
+    flex-direction: row;
+    gap: var(--gap-10xs);
+}
+
+.book-appointment7 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 3.5rem;
+}
+
+.book-appointment-btn6 {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-7xs) var(--padding-3xs);
+    background-color: var(--badges-col);
+    border-radius: var(--br-9xs);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.book-appointment-btn-wrapper2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-12xs);
+}
+
+.price-frame-parent3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+}
+
+.book-test-card6,
+.frame-parent8 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-parent8 {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-39xl);
+}
+
+.book-test-card6 {
+    height: 8.375rem;
+    width: 24.875rem;
+    box-shadow: 0 0 20px rgba(14, 199, 190, 0.25);
+    border-radius: var(--br-xs);
+    background-color: var(--white);
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: var(--padding-xs) var(--padding-mini) var(--padding-smi) 0;
+    box-sizing: border-box;
+    gap: var(--gap-smi);
+    max-width: 100%;
+}
+
+.image-icon7 {
+    margin-top: -1.938rem;
+    height: 10.75rem;
+    width: 9.25rem;
+    position: relative;
+    border-radius: var(--br-xs) 0 0 var(--br-xs);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.complete-blood-count7 {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.complete-blood-count-wrapper4 {
+    width: 12.938rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs);
+    box-sizing: border-box;
+}
+
+.rs-10007,
+.rs-5007 {
+    position: relative;
+    display: inline-block;
+}
+
+.rs-5007 {
+    height: 1.5rem;
+    font-weight: 600;
+    min-width: 3.438rem;
+}
+
+.rs-10007 {
+    font-weight: 500;
+    min-width: 2.813rem;
+    flex-shrink: 0;
+}
+
+.frame-child9 {
+    width: 2.725rem;
+    height: 0.388rem;
+    position: absolute;
+    margin: 0 !important;
+    right: 0.025rem;
+    bottom: 0.144rem;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.rs-1000-parent4 {
+    align-self: stretch;
+    height: 0.938rem;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.price-frame-inner5,
+.price-frame6,
+.rs-1000-parent4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.price-frame-inner5 {
+    width: 2.875rem;
+    flex-direction: column;
+    padding: var(--padding-8xs-5) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-xs);
+}
+
+.price-frame6 {
+    flex-direction: row;
+    gap: var(--gap-10xs);
+}
+
+.book-appointment8 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 3.5rem;
+}
+
+.book-appointment-btn-wrapper3,
+.book-appointment-btn7 {
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.book-appointment-btn7 {
+    padding: var(--padding-7xs) var(--padding-3xs);
+    background-color: var(--badges-col);
+    border-radius: var(--br-9xs);
+    flex-direction: row;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.book-appointment-btn-wrapper3 {
+    padding: 0 0 var(--padding-12xs);
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.price-frame-parent4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+}
+
+.book-test-card7,
+.frame-parent9 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-parent9 {
+    flex: 1;
+    flex-direction: column;
+    gap: var(--gap-39xl);
+}
+
+.book-test-card7 {
+    height: 8.375rem;
+    width: 24.875rem;
+    box-shadow: 0 0 20px rgba(14, 199, 190, 0.25);
+    border-radius: var(--br-xs);
+    background-color: var(--white);
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    padding: var(--padding-xs) var(--padding-mini) var(--padding-smi) 0;
+    box-sizing: border-box;
+    gap: var(--gap-smi);
+    max-width: 100%;
+}
+
+.image-icon8 {
+    margin-top: -1.938rem;
+    height: 10.75rem;
+    width: 9.25rem;
+    position: relative;
+    border-radius: var(--br-xs) 0 0 var(--br-xs);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.complete-blood-count8 {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+}
+
+.complete-blood-count-wrapper5 {
+    width: 12.938rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-10xs);
+    box-sizing: border-box;
+}
+
+.rs-10008,
+.rs-5008 {
+    position: relative;
+    display: inline-block;
+}
+
+.rs-5008 {
+    height: 1.5rem;
+    font-weight: 600;
+    min-width: 3.438rem;
+}
+
+.rs-10008 {
+    font-weight: 500;
+    min-width: 2.813rem;
+    flex-shrink: 0;
+}
+
+.frame-child10 {
+    width: 2.725rem;
+    height: 0.388rem;
+    position: absolute;
+    margin: 0 !important;
+    right: 0.025rem;
+    bottom: 0.144rem;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.rs-1000-parent5 {
+    align-self: stretch;
+    height: 0.938rem;
+    flex-direction: column;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.price-frame-inner6,
+.price-frame7,
+.rs-1000-parent5 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.price-frame-inner6 {
+    width: 2.875rem;
+    flex-direction: column;
+    padding: var(--padding-8xs-5) 0 0;
+    box-sizing: border-box;
+    font-size: var(--font-size-xs);
+}
+
+.price-frame7 {
+    flex-direction: row;
+    gap: var(--gap-10xs);
+}
+
+.book-appointment9 {
+    position: relative;
+    font-size: var(--font-size-xs);
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: left;
+    display: inline-block;
+    min-width: 3.5rem;
+}
+
+.book-appointment-btn-wrapper4,
+.book-appointment-btn8 {
+    cursor: pointer;
+    border: 0;
+    display: flex;
+    align-items: flex-start;
+}
+
+.book-appointment-btn8 {
+    padding: var(--padding-7xs) var(--padding-3xs);
+    background-color: var(--badges-col);
+    border-radius: var(--br-9xs);
+    flex-direction: row;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.book-appointment-btn-wrapper4 {
+    padding: 0 0 var(--padding-12xs);
+    background-color: transparent;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.price-frame-parent5 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    text-align: left;
+    font-size: var(--font-size-base);
+}
+
+.frame-parent10 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-39xl);
+}
+
+.book-test-card8,
+.test-cards {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+}
+
+.book-test-card8 {
+    height: 8.375rem;
+    width: 24.875rem;
+    box-shadow: 0 0 20px rgba(14, 199, 190, 0.25);
+    border-radius: var(--br-xs);
+    background-color: var(--white);
+    overflow: hidden;
+    flex-shrink: 0;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xs) var(--padding-mini) var(--padding-smi) 0;
+    box-sizing: border-box;
+    gap: var(--gap-smi);
+}
+
+.test-cards {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 3.625rem 3.406rem;
+    min-height: 32.375rem;
+}
+
+.test-list {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--font-size-lgi);
+    color: var(--text-heading);
+}
+
+.main-content,
+.offers-parent,
+.test-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.offers-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: 3.062rem;
+}
+
+.main-content {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-45xl) var(--padding-44xl);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: 2.125rem;
+    color: var(--white);
+    font-family: var(--font-poppins);
+}
+
+.footer-logo-icon {
+    width: 0.875rem;
+    height: 0.875rem;
+    position: relative;
+}
+
+.jammedical-container,
+.jammedical1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.jammedical1 {
+    overflow: hidden;
+    padding: var(--padding-11xs);
+    width: 1.125rem;
+    height: 1.125rem;
+}
+
+.jammedical-container {
+    height: 1.875rem;
+    width: 1.875rem;
+    border-radius: var(--br-13xl);
+    background-color: var(--badges-col);
+    padding: var(--padding-7xs);
+}
+
+.arogya-24x71 {
+    height: 2.063rem;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.logo-group1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-10xs);
+}
+
+.aarogya24x7-is-initiative {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 300;
+}
+
+.footer-brand {
+    width: 15.188rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.375rem;
+    font-size: 1.375rem;
+}
+
+.cbc-tests1,
+.tests {
+    position: relative;
+    display: inline-block;
+}
+
+.tests {
+    margin: 0;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    min-width: 3rem;
+}
+
+.cbc-tests1 {
+    min-width: 5.25rem;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.cbc-tests {
+    height: 1.438rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.diabetes-tests {
+    width: 9.138rem;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.diabetes {
+    width: 6.813rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lipid-profile {
+    line-height: 1.45rem;
+    min-width: 5.375rem;
+}
+
+.lipid-profile,
+.liver-profile,
+.thyroid-tests {
+    position: relative;
+    display: inline-block;
+}
+
+.liver-profile {
+    height: 1.438rem;
+    min-width: 5.313rem;
+}
+
+.thyroid-tests {
+    line-height: 1.45rem;
+    min-width: 6.25rem;
+}
+
+.urinalysis {
+    width: 5.563rem;
+    display: inline-block;
+}
+
+.cultures,
+.hemoglobin-a1c,
+.urinalysis {
+    position: relative;
+}
+
+.cultures {
+    width: 5.563rem;
+    display: inline-block;
+}
+
+.footer-links,
+.tests-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.tests-links {
+    gap: var(--gap-5xs);
+    font-size: var(--font-size-mini);
+}
+
+.footer-links {
+    gap: var(--gap-smi);
+}
+
+.health-packages {
+    margin: 0;
+    position: relative;
+    font-size: inherit;
+    line-height: 1.7rem;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+.basic-health-packages {
+    width: 22.025rem;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 208%;
+}
+
+.basic {
+    width: 10.625rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.advanced-health-packages {
+    width: 32.656rem;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 253%;
+}
+
+.annual {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.advance-health-package {
+    width: 13.781rem;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.annual1,
+.package-links,
+.package-links-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.annual1 {
+    width: 11.813rem;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.package-links,
+.package-links-list {
+    flex-direction: column;
+}
+
+.package-links-list {
+    align-self: stretch;
+    gap: var(--gap-5xs);
+    font-size: var(--font-size-mini);
+}
+
+.package-links {
+    width: 12.938rem;
+    gap: var(--gap-smi);
+}
+
+.contact-us {
+    margin: 0;
+    height: 1.688rem;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    display: inline-block;
+    min-width: 6.5rem;
+}
+
+.head-office-1st-floor {
+    margin-block-start: 0;
+    margin-block-end: 5px;
+}
+
+.email-arogyagmailcom {
+    margin: 0;
+}
+
+.head-office-1st-floor-container {
+    align-self: stretch;
+    height: 12.313rem;
+    position: relative;
+    font-size: var(--font-size-mini);
+    line-height: 1.5rem;
+    display: inline-block;
+}
+
+.contact,
+.footer-content {
+    display: flex;
+    align-items: flex-start;
+}
+
+.contact {
+    width: 16.625rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-smi);
+}
+
+.footer-content {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+
+.social-icons-background {
+    align-self: stretch;
+    height: 0.063rem;
+    position: relative;
+    background-color: var(--white);
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.separtor-line {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    max-width: 100%;
+}
+
+.separtor-line-wrapper {
+    align-self: stretch;
+    height: 0.063rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.fayoutube-icon,
+.icbaseline-facebook-icon,
+.mditwitter-icon,
+.uillinkedin-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.fayoutube-icon {
+    width: 1.356rem;
+}
+
+.social-icons {
+    width: 12.606rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.25rem;
+}
+
+.copyright-aarogya24x7 {
+    height: 1.313rem;
+    position: relative;
+    display: inline-block;
+}
+
+.copyright,
+.social-links {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.copyright {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0.093rem 0 0;
+    box-sizing: border-box;
+}
+
+.social-links {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+
+.footer,
+.footer-social,
+.tests-list-page {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.footer-social {
+    align-self: stretch;
+    gap: 1.343rem;
+    max-width: 100%;
+    font-size: var(--font-size-sm);
+}
+
+.footer,
+.tests-list-page {
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.footer {
+    align-self: stretch;
+    background-color: var(--footer-col);
+    padding: 3.25rem 3.75rem 1.437rem var(--padding-45xl);
+    gap: 3.5rem;
+    flex-shrink: 0;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--white);
+    font-family: var(--font-poppins);
+}
+
+.tests-list-page {
+    width: 100%;
+    height: 104.25rem;
+    position: relative;
+    background-color: var(--white);
+    padding: 0 0 37.375rem;
+    gap: 3.125rem;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    padding: 10px 20px;
+    font-family: 'Poppins';
+}
+
+.dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .navigation {
+        display: none;
+    }
+
+    .offer-slider-section {
+        gap: 6.813rem;
+        padding-left: 1.813rem;
+        padding-right: 19.313rem;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .explore-our-comprehensive-container {
+        font-size: 1.4rem;
+    }
+
+    .main-content {
+        padding-bottom: 2.563rem;
+        box-sizing: border-box;
+    }
+
+    .footer-content {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .navigation {
+        gap: var(--gap-base);
+    }
+
+    .tests-list-page-inner {
+        padding-left: var(--padding-12xl);
+        padding-right: var(--padding-12xl);
+        box-sizing: border-box;
+    }
+
+    .offer-slider-section {
+        gap: 3.375rem;
+        padding-top: var(--padding-6xl);
+        padding-right: 9.625rem;
+        padding-bottom: var(--padding-6xl);
+        box-sizing: border-box;
+    }
+
+    .frame-parent2 {
+        flex-wrap: wrap;
+    }
+
+    .test-cards {
+        gap: var(--gap-8xl);
+    }
+
+    .offers-parent {
+        gap: var(--gap-5xl);
+    }
+
+    .main-content {
+        padding-left: var(--padding-13xl);
+        padding-right: var(--padding-13xl);
+        padding-bottom: 1.688rem;
+        box-sizing: border-box;
+    }
+
+    .social-links {
+        flex-wrap: wrap;
+    }
+
+    .footer {
+        gap: 1.75rem;
+        padding: 2.125rem 1.875rem var(--padding-xl) var(--padding-13xl);
+        box-sizing: border-box;
+    }
+
+    .tests-list-page {
+        height: auto;
+        gap: 1.563rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .frame-group {
+        gap: 1.188rem;
+    }
+
+    .frame-parent {
+        gap: var(--gap-xl);
+    }
+
+    .explore-our-comprehensive-container {
+        font-size: var(--font-size-xl);
+    }
+
+    .book-your-health {
+        font-size: var(--font-size-base);
+        line-height: 1.375rem;
+    }
+
+    .offer-slider-section {
+        gap: var(--gap-8xl);
+        padding-right: var(--padding-xl);
+        box-sizing: border-box;
+    }
+
+    .book-your-test {
+        font-size: var(--font-size-lgi);
+        line-height: 1.5rem;
+    }
+
+    .arogya-24x71 {
+        font-size: var(--font-size-lg);
+    }
+}

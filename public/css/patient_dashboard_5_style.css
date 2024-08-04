@@ -1,0 +1,1337 @@
+.iconoirsearch,
+.search {
+    height: 1.5rem;
+    position: relative;
+}
+
+.iconoirsearch {
+    width: 1.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.search {
+    flex: 1;
+    line-height: 1.5rem;
+    display: inline-block;
+}
+
+.iconoirsearch-parent {
+    width: 5.375rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-3xs);
+}
+
+.patient-my-reports-inner {
+    height: 2.813rem;
+    border-radius: 4px;
+    border: 1px solid var(--color-dimgray);
+    box-sizing: border-box;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 15.437rem var(--padding-3xs) var(--padding-base);
+    max-width: 100%;
+}
+
+.vector-icon {
+    width: 0.875rem;
+    height: 0.875rem;
+    position: relative;
+}
+
+.jammedical {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.125rem;
+    box-sizing: border-box;
+    width: 1.125rem;
+    height: 1.125rem;
+}
+
+.frame-container,
+.jammedical-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.jammedical-wrapper {
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: var(--br-13xl);
+    background-color: var(--color-white);
+    flex-direction: row;
+    padding: 0.375rem;
+    box-sizing: border-box;
+}
+
+.frame-container {
+    flex-direction: column;
+    padding: 0.093rem 0 0;
+}
+
+.arogya-24x7 {
+    text-decoration: none;
+    height: 2.063rem;
+    position: relative;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+}
+
+.frame-group,
+.frame-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-group {
+    gap: var(--gap-10xs);
+}
+
+.frame-wrapper {
+    padding: 0 var(--padding-38xl);
+}
+
+.tablerfile-report-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.upload-prescription {
+    position: relative;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+
+.tablerfile-report-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-9xs) 0 0;
+    gap: 0.687rem;
+}
+
+.dashboard-sidebar-link {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xl) 2.75rem;
+}
+
+.tablerfile-report-icon1 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.upload-prescription1 {
+    position: relative;
+    line-height: 1.5rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 5.688rem;
+}
+
+.tablerfile-report-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 3.812rem 0 var(--padding-9xs);
+    gap: var(--gap-xs);
+}
+
+.dashboard-sidebar-link1 {
+    align-self: stretch;
+    background-color: var(--dashboard-linkhover);
+    border-left: 6px solid var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xl) var(--padding-26xl);
+    color: var(--color-white);
+}
+
+.tablerfile-report-icon2 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.upload-prescription2 {
+    position: relative;
+    line-height: 1.5rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 7.75rem;
+}
+
+.tablerfile-report-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-13xl) 0 var(--padding-9xs);
+    gap: var(--gap-smi);
+}
+
+.dashboard-sidebar-link2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xl) var(--padding-26xl);
+}
+
+.dashboard-sidebar-links,
+.frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.dashboard-sidebar-links {
+    font-size: var(--font-size-base);
+    color: var(--color-lightgray);
+}
+
+.frame-parent {
+    gap: 6.406rem;
+}
+
+.carbonhelp-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.help {
+    position: relative;
+    line-height: 1.5rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 2.313rem;
+}
+
+.help-logout-icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-smi);
+}
+
+.dashboard-sidebar-link3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-6xl-5) var(--padding-26xl) var(--padding-7xl-5);
+}
+
+.solarlogin-2-linear-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.log-out {
+    position: relative;
+    line-height: 1.5rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 3.875rem;
+}
+
+.solarlogin-2-linear-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-smi);
+}
+
+.dashboard-sidebar-link4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-6xl-5) 2.625rem var(--padding-7xl-5);
+}
+
+.help-logout-links,
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.help-logout-links {
+    align-self: stretch;
+    justify-content: center;
+    font-size: var(--font-size-base);
+}
+
+.side-bar {
+    width: 18rem;
+    background-color: var(--footer-col);
+    overflow: hidden;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    padding: 2.156rem 0 2.5rem;
+    box-sizing: border-box;
+    gap: 11.625rem;
+    font-size: 1.375rem;
+    color: var(--color-white);
+}
+
+.ionnotifications-outline-icon,
+.solarsettings-outline-icon {
+    height: 1.25rem;
+    width: 1.25rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.ionnotifications-outline-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.notification-icon-child {
+    width: 0.375rem;
+    height: 0.375rem;
+    position: absolute;
+    margin: 0 !important;
+    top: -0.062rem;
+    left: 0.938rem;
+    border-radius: 50%;
+    background-color: var(--primary-col);
+    z-index: 1;
+}
+
+.notification-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0;
+    position: relative;
+}
+
+.settings-notification {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.125rem;
+}
+
+.frame-child {
+    height: 2.125rem;
+    width: 2.125rem;
+    position: relative;
+    border-radius: 30px;
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.patient-name {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    min-width: 6.813rem;
+    white-space: nowrap;
+}
+
+.vector-icon1 {
+    height: 0.225rem;
+    width: 0.406rem;
+    position: relative;
+}
+
+.frame-div,
+.patient-name-parent,
+.profile-settings-notification {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame-div,
+.patient-name-parent {
+    gap: var(--gap-5xs);
+}
+
+.profile-settings-notification {
+    gap: 2.125rem;
+}
+
+.my-reports {
+    text-decoration: none;
+    position: absolute;
+    margin: 0 !important;
+    top: calc(50% - 9px);
+    left: 5.313rem;
+    font-size: 1.25rem;
+    line-height: 1.125rem;
+    font-weight: 500;
+    color: var(--text-heading);
+    display: inline-block;
+    min-width: 7rem;
+    white-space: nowrap;
+}
+
+.dashboard-nav1 {
+    align-self: stretch;
+    background-color: var(--color-white);
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1.125rem 4.125rem var(--padding-base) 5.375rem;
+    position: relative;
+    gap: var(--gap-3xs);
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--secondary-text-color);
+    font-family: var(--font-poppins);
+}
+
+.iconoirsearch1 {
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.search-reports {
+    text-decoration: none;
+    position: relative;
+    line-height: 1.125rem;
+    color: inherit;
+    display: inline-block;
+    min-width: 6rem;
+}
+
+.search-input,
+.search-input-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input {
+    flex-direction: row;
+    padding: 0 var(--padding-xl);
+    gap: var(--gap-xs);
+}
+
+.search-input-wrapper {
+    flex: 1;
+    border-radius: var(--br-13xl);
+    border: 1px solid var(--secondary-text-color);
+    flex-direction: column;
+    padding: 0.5rem var(--padding-base);
+}
+
+.frame-wrapper2 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    min-width: 8.938rem;
+}
+
+.filters {
+    text-decoration: none;
+    flex: 1;
+    position: relative;
+    line-height: 1.125rem;
+    color: inherit;
+}
+
+.clarityfilter-line-icon {
+    height: 1.25rem;
+    width: 1.25rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.25rem;
+}
+
+.filters-parent,
+.frame-parent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.filters-parent {
+    width: 4.938rem;
+    justify-content: center;
+    gap: var(--gap-5xs);
+    font-size: var(--font-size-base);
+}
+
+.frame-parent1 {
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 1.375rem;
+    max-width: 100%;
+}
+
+.dashboard-nav-inner,
+.frame-wrapper1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    max-width: 100%;
+}
+
+.frame-wrapper1 {
+    flex: 1;
+    align-items: center;
+}
+
+.dashboard-nav-inner {
+    width: 28.188rem;
+    align-items: flex-start;
+    padding: 0 4.062rem;
+    box-sizing: border-box;
+}
+
+.mdipatient-outline-icon {
+    height: 1.125rem;
+    width: 1.125rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.patient-name1 {
+    position: relative;
+    line-height: 1.5rem;
+    white-space: pre-wrap;
+    display: inline-block;
+    min-width: 5.75rem;
+}
+
+.header-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+
+.healthiconshealth-alt-outline {
+    height: 1.125rem;
+    width: 1.125rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.associated-lab-name {
+    position: relative;
+    line-height: 1.5rem;
+}
+
+.header-items1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+
+.carbonreport-icon {
+    height: 1.125rem;
+    width: 1.125rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.report-subject {
+    position: relative;
+    line-height: 1.5rem;
+    display: inline-block;
+    min-width: 5.938rem;
+}
+
+.header-items2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+
+.claritydate-line-icon {
+    height: 1.063rem;
+    width: 1.063rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.uploaded-date {
+    position: relative;
+    line-height: 1.5rem;
+    display: inline-block;
+    min-width: 6.125rem;
+}
+
+.header-items3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+
+.formkittime-icon {
+    height: 1.063rem;
+    width: 1.063rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.uploaded-time {
+    position: relative;
+    line-height: 1.5rem;
+    display: inline-block;
+    min-width: 6.188rem;
+}
+
+.header-items4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+}
+
+.report-header,
+.report-list-container {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+}
+
+.report-header {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+
+.report-list-container {
+    border-radius: var(--br-7xs);
+    background-color: #f9f5f5;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0.75rem 1.875rem;
+}
+
+.am,
+.arogya-lab,
+.blood-test,
+.mark-wood,
+.report-separator {
+    position: relative;
+    line-height: 1.5rem;
+    display: inline-block;
+    min-width: 5.688rem;
+}
+
+.am,
+.arogya-lab,
+.blood-test,
+.report-separator {
+    min-width: 5.75rem;
+}
+
+.am,
+.blood-test,
+.report-separator {
+    min-width: 5.188rem;
+}
+
+.am,
+.report-separator {
+    min-width: 5.5rem;
+}
+
+.am {
+    min-width: 4.438rem;
+    white-space: nowrap;
+}
+
+.report-item-content,
+.report-item-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.report-item-content {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+
+.report-item-content-wrapper {
+    align-self: stretch;
+    box-shadow: 0 0 11px 4px rgba(0, 0, 0, 0.06);
+    border-radius: var(--br-7xs);
+    background-color: var(--color-white);
+    overflow: hidden;
+    justify-content: flex-start;
+    padding: var(--padding-mid) var(--padding-32xl) var(--padding-mid) var(--padding-38xl);
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.view-report {
+    position: relative;
+    line-height: 1.125rem;
+    display: inline-block;
+    min-width: 4.438rem;
+}
+
+.view-report-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.carbonreport-icon1 {
+    height: 1.063rem;
+    width: 1.063rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.frame-parent2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-9xs);
+}
+
+.download {
+    text-decoration: none;
+    position: relative;
+    line-height: 1.125rem;
+    color: inherit;
+    display: inline-block;
+    min-width: 3.875rem;
+}
+
+.download-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.material-symbols-lightdownloa {
+    margin: 0;
+    height: 1.25rem;
+    width: 1.25rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.25rem;
+}
+
+.download-text,
+.report-actions {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-10xs);
+}
+
+.report-actions {
+    align-items: center;
+    gap: var(--gap-mid);
+    flex-shrink: 0;
+    font-size: var(--font-size-xs);
+    color: var(--secondary-text-color);
+}
+
+.patient-dash-report-list {
+    align-self: stretch;
+    height: 5.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-5xl);
+    box-sizing: border-box;
+    gap: var(--gap-7xs);
+    max-width: 100%;
+}
+
+.am1,
+.arogya-lab1,
+.blood-test1,
+.div,
+.mark-wood1 {
+    position: relative;
+    line-height: 1.5rem;
+    display: inline-block;
+    min-width: 5.688rem;
+}
+
+.am1,
+.arogya-lab1,
+.blood-test1,
+.div {
+    min-width: 5.75rem;
+}
+
+.am1,
+.blood-test1,
+.div {
+    min-width: 5.188rem;
+}
+
+.am1,
+.div {
+    min-width: 5.5rem;
+}
+
+.am1 {
+    min-width: 4.438rem;
+    white-space: nowrap;
+}
+
+.mark-wood-parent,
+.patient-dash-report-list-inner {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.mark-wood-parent {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+
+.patient-dash-report-list-inner {
+    align-self: stretch;
+    box-shadow: 0 0 11px 4px rgba(0, 0, 0, 0.06);
+    border-radius: var(--br-7xs);
+    background-color: var(--color-white);
+    overflow: hidden;
+    justify-content: flex-start;
+    padding: var(--padding-mid) var(--padding-32xl) var(--padding-mid) var(--padding-38xl);
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.view-report1 {
+    position: relative;
+    line-height: 1.125rem;
+    display: inline-block;
+    min-width: 4.438rem;
+}
+
+.view-report-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.carbonreport-icon2 {
+    height: 1.063rem;
+    width: 1.063rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.frame-parent4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-9xs);
+}
+
+.download1 {
+    position: relative;
+    line-height: 1.125rem;
+    display: inline-block;
+    min-width: 3.875rem;
+}
+
+.download-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.material-symbols-lightdownloa1 {
+    margin: 0;
+    height: 1.25rem;
+    width: 1.25rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.25rem;
+}
+
+.download-text1,
+.frame-parent3 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-10xs);
+}
+
+.frame-parent3 {
+    align-items: center;
+    gap: var(--gap-mid);
+    flex-shrink: 0;
+    font-size: var(--font-size-xs);
+    color: var(--secondary-text-color);
+}
+
+.patient-dash-report-list1,
+.report-list-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.patient-dash-report-list1 {
+    align-self: stretch;
+    height: 5.125rem;
+    align-items: flex-end;
+    padding: 0 0 var(--padding-5xl);
+    box-sizing: border-box;
+    gap: var(--gap-7xs);
+}
+
+.report-list-content {
+    flex: 1;
+    align-items: flex-start;
+    gap: 1.875rem;
+}
+
+.report-list {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0 var(--padding-9xs);
+    box-sizing: border-box;
+    font-size: var(--font-size-base);
+    color: var(--text-heading);
+}
+
+.report-list,
+.report-list-parent,
+.report-list-parent-wrapper {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.report-list-parent {
+    flex: 1;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 2.187rem;
+}
+
+.report-list-parent-wrapper {
+    width: 70.625rem;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 4rem;
+    box-sizing: border-box;
+    color: var(--color-dimgray);
+}
+
+.am2,
+.arogya-lab2,
+.blood-test2,
+.div1,
+.mark-wood2 {
+    position: relative;
+    line-height: 1.5rem;
+    display: inline-block;
+    min-width: 5.688rem;
+}
+
+.am2,
+.arogya-lab2,
+.blood-test2,
+.div1 {
+    min-width: 5.75rem;
+}
+
+.am2,
+.blood-test2,
+.div1 {
+    min-width: 5.188rem;
+}
+
+.am2,
+.div1 {
+    min-width: 5.5rem;
+}
+
+.am2 {
+    min-width: 4.438rem;
+    white-space: nowrap;
+}
+
+.single-report-content,
+.single-report-content-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.single-report-content {
+    flex: 1;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+
+.single-report-content-wrapper {
+    align-self: stretch;
+    box-shadow: 0 0 11px 4px rgba(0, 0, 0, 0.06);
+    border-radius: var(--br-7xs);
+    background-color: var(--color-white);
+    overflow: hidden;
+    justify-content: flex-start;
+    padding: var(--padding-mid) var(--padding-32xl) var(--padding-mid) var(--padding-38xl);
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.view-report2 {
+    position: relative;
+    line-height: 1.125rem;
+    display: inline-block;
+    min-width: 4.438rem;
+}
+
+.view-report-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.carbonreport-icon3 {
+    height: 1.063rem;
+    width: 1.063rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.single-view-report {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-9xs);
+}
+
+.download2 {
+    position: relative;
+    line-height: 1.125rem;
+    display: inline-block;
+    min-width: 3.875rem;
+}
+
+.single-download {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.material-symbols-lightdownloa2 {
+    margin: 0;
+    height: 1.25rem;
+    width: 1.25rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.25rem;
+}
+
+.download-text2,
+.single-report-action {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-10xs);
+}
+
+.single-report-action {
+    align-items: center;
+    gap: var(--gap-mid);
+    flex-shrink: 0;
+    font-size: var(--font-size-xs);
+    color: var(--secondary-text-color);
+}
+
+.patient-dash-report-list2,
+.report-item-single {
+    display: flex;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.patient-dash-report-list2 {
+    height: 5.125rem;
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-5xl);
+    gap: var(--gap-7xs);
+}
+
+.report-item-single {
+    width: 70.625rem;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 4.25rem;
+    font-size: var(--font-size-base);
+    color: var(--text-heading);
+}
+
+.dashboard-nav,
+.patient-my-reports {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-family: var(--font-poppins);
+}
+
+.dashboard-nav {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 1.918rem;
+    max-width: calc(100% - 288px);
+    font-size: var(--font-size-smi);
+    color: var(--secondary-text-color);
+}
+
+.patient-my-reports {
+    width: 100%;
+    position: relative;
+    /*border-radius: 20px;*/
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-start;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 0.875rem;
+    color: #000;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 1125px) {
+
+    .report-item-single,
+    .report-list-parent-wrapper {
+        padding-left: var(--padding-13xl);
+        padding-right: var(--padding-13xl);
+        box-sizing: border-box;
+    }
+
+    .report-item-single {
+        padding-left: var(--padding-15xl);
+        padding-right: var(--padding-15xl);
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .side-bar {
+        display: none;
+    }
+
+    .report-header {
+        flex-wrap: wrap;
+    }
+
+    .patient-dash-report-list-inner,
+    .report-item-content-wrapper,
+    .single-report-content-wrapper {
+        padding-left: var(--padding-9xl);
+        padding-right: var(--padding-6xl);
+        box-sizing: border-box;
+    }
+
+    .dashboard-nav {
+        max-width: 100%;
+    }
+
+    .patient-my-reports {
+        padding-left: var(--padding-xl);
+        padding-right: var(--padding-xl);
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .side-bar {
+        padding-top: 1.375rem;
+        padding-bottom: 2.375rem;
+        box-sizing: border-box;
+    }
+
+    .report-item-content {
+        flex-wrap: wrap;
+    }
+
+    .patient-dash-report-list {
+        height: auto;
+    }
+
+    .mark-wood-parent {
+        flex-wrap: wrap;
+    }
+
+    .patient-dash-report-list1 {
+        height: auto;
+    }
+
+    .report-list-parent {
+        gap: var(--gap-mid);
+    }
+
+    .single-report-content {
+        flex-wrap: wrap;
+    }
+
+    .patient-dash-report-list2 {
+        height: auto;
+    }
+
+    .dashboard-nav {
+        gap: 0.938rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .arogya-24x7 {
+        font-size: 1.125rem;
+    }
+
+    .dashboard-sidebar-link,
+    .dashboard-sidebar-link1,
+    .dashboard-sidebar-link2,
+    .frame-wrapper {
+        padding-left: var(--padding-xl);
+        padding-right: var(--padding-xl);
+        box-sizing: border-box;
+    }
+
+    .frame-parent {
+        gap: 3.188rem;
+    }
+
+    .side-bar {
+        gap: 5.813rem;
+    }
+
+    .profile-settings-notification {
+        gap: var(--gap-mid);
+    }
+
+    .dashboard-nav1 {
+        padding-left: var(--padding-xl);
+        padding-right: var(--padding-xl);
+        box-sizing: border-box;
+    }
+
+    .frame-wrapper1 {
+        gap: 17.75rem;
+    }
+
+    .dashboard-nav-inner {
+        padding-left: var(--padding-13xl);
+        padding-right: var(--padding-13xl);
+        box-sizing: border-box;
+    }
+}

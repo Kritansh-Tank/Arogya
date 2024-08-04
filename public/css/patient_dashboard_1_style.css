@@ -1,0 +1,1391 @@
+.iconoirsearch,
+.search {
+    height: 1.5rem;
+    position: relative;
+}
+
+.iconoirsearch {
+    width: 1.5rem;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.search {
+    flex: 1;
+    line-height: 1.5rem;
+    display: inline-block;
+}
+
+.iconoirsearch-parent {
+    width: 5.375rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-3xs);
+}
+
+.patient-upload-report-prescrip-inner {
+    height: 2.813rem;
+    border-radius: 4px;
+    border: 1px solid #616161;
+    box-sizing: border-box;
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-3xs) 15.437rem var(--padding-3xs) var(--padding-base);
+    max-width: 100%;
+}
+
+.vector-icon {
+    width: 0.875rem;
+    height: 0.875rem;
+    position: relative;
+}
+
+.jammedical {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0.125rem;
+    box-sizing: border-box;
+    width: 1.125rem;
+    height: 1.125rem;
+}
+
+.frame-container,
+.jammedical-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.jammedical-wrapper {
+    width: 1.875rem;
+    height: 1.875rem;
+    border-radius: 32px;
+    background-color: var(--color-white);
+    flex-direction: row;
+    padding: var(--padding-7xs);
+    box-sizing: border-box;
+}
+
+.frame-container {
+    flex-direction: column;
+    padding: 0.093rem 0 0;
+}
+
+.arogya-24x7 {
+    text-decoration: none;
+    height: 2.063rem;
+    position: relative;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+}
+
+.frame-group,
+.frame-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-group {
+    gap: 0.187rem;
+}
+
+.frame-wrapper {
+    padding: 0 3.562rem;
+}
+
+.tablerfile-report-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.upload-prescription {
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 1.5rem;
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    color: var(--color-white);
+    text-align: left;
+}
+
+.tablerfile-report-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.687rem;
+}
+
+.dashboard-sidebar-link {
+    cursor: pointer;
+    border: 0;
+    padding: var(--padding-8xl) 2.937rem var(--padding-8xl) var(--padding-23xl);
+    background-color: var(--dashboard-linkhover);
+    align-self: stretch;
+    border-left: 4px solid var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.tablerfile-report-icon1 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.upload-prescription1 {
+    position: relative;
+    line-height: 1.5rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 5.688rem;
+}
+
+.tablerfile-report-group {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-45xl) 0 var(--padding-7xs);
+    gap: var(--gap-xs);
+}
+
+.dashboard-sidebar-link1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xl) var(--padding-26xl);
+}
+
+.tablerfile-report-icon2 {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.upload-prescription2 {
+    position: relative;
+    line-height: 1.5rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 7.75rem;
+}
+
+.tablerfile-report-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 1.937rem 0 var(--padding-7xs);
+    gap: var(--gap-smi);
+}
+
+.dashboard-sidebar-link2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xl) var(--padding-26xl);
+}
+
+.dashboard-sidebar-link-parent,
+.frame-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.dashboard-sidebar-link-parent {
+    font-size: var(--font-size-base);
+    color: var(--color-lightgray-100);
+}
+
+.frame-parent {
+    gap: 6.406rem;
+}
+
+.carbonhelp-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.help {
+    position: relative;
+    line-height: 1.5rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 2.313rem;
+}
+
+.carbonhelp-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-smi);
+}
+
+.dashboard-sidebar-link3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-6xl-5) var(--padding-26xl) var(--padding-7xl-5);
+}
+
+.solarlogin-2-linear-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.log-out {
+    position: relative;
+    line-height: 1.5rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 3.875rem;
+}
+
+.solarlogin-2-linear-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-smi);
+}
+
+.dashboard-sidebar-link4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-6xl-5) var(--padding-23xl) var(--padding-7xl-5);
+}
+
+.dashboard-sidebar-link-group,
+.side-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dashboard-sidebar-link-group {
+    align-self: stretch;
+    justify-content: center;
+    font-size: var(--font-size-base);
+}
+
+.side-bar {
+    width: 18rem;
+    background-color: var(--footer-col);
+    overflow: hidden;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    padding: 2.156rem 0 2.5rem;
+    box-sizing: border-box;
+    gap: 11.625rem;
+    font-size: 1.375rem;
+    color: var(--color-white);
+}
+
+.ionnotifications-outline-icon,
+.solarsettings-outline-icon {
+    height: 1.25rem;
+    width: 1.25rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.ionnotifications-outline-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.notification-dot {
+    width: 0.375rem;
+    height: 0.375rem;
+    position: absolute;
+    margin: 0 !important;
+    top: -0.062rem;
+    left: 0.938rem;
+    border-radius: 50%;
+    background-color: var(--primary-col);
+    z-index: 1;
+}
+
+.notification-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    padding: 0;
+    position: relative;
+}
+
+.settings-notification {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.125rem;
+}
+
+.user-profile-image {
+    height: 2.125rem;
+    width: 2.125rem;
+    position: relative;
+    border-radius: var(--br-11xl);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.patient-name {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    min-width: 6.813rem;
+    white-space: nowrap;
+}
+
+.vector-icon1 {
+    height: 0.225rem;
+    width: 0.406rem;
+    position: relative;
+}
+
+.profile-settings-notification,
+.user-name,
+.user-profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-name,
+.user-profile {
+    gap: var(--gap-5xs);
+}
+
+.profile-settings-notification {
+    gap: 2.125rem;
+}
+
+.send-prescription-to {
+    position: relative;
+    line-height: 1.125rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.dashboard-nav,
+.page-title {
+    display: flex;
+    justify-content: center;
+}
+
+.page-title {
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% - 9px);
+    left: 5.313rem;
+    flex-direction: row;
+    align-items: center;
+    font-size: var(--font-size-lg);
+    color: var(--text-heading);
+}
+
+.dashboard-nav {
+    align-self: stretch;
+    background-color: var(--color-white);
+    border-bottom: 1px solid #ebebeb;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 1.125rem 4.125rem var(--padding-base) 5.312rem;
+    position: relative;
+    gap: var(--gap-3xs);
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--secondary-text-color);
+    font-family: var(--font-poppins);
+}
+
+.send-prescription {
+    position: relative;
+    line-height: 1.125rem;
+    font-weight: 500;
+}
+
+.search-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.562rem 0 0;
+}
+
+.iconoirsearch1 {
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.search-doctor {
+    text-decoration: none;
+    position: relative;
+    line-height: 1.125rem;
+    color: inherit;
+    display: inline-block;
+    min-width: 5.813rem;
+}
+
+.search-input-box,
+.search-terms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-input-box {
+    flex-direction: row;
+    padding: 0 var(--padding-xl);
+    gap: var(--gap-xs);
+}
+
+.search-terms {
+    flex: 1;
+    border-radius: var(--br-11xl);
+    border: 1px solid var(--secondary-text-color);
+    flex-direction: column;
+    padding: var(--padding-7xs) var(--padding-base);
+}
+
+.search-field,
+.search-terms-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.search-field {
+    justify-content: center;
+    min-width: 8.875rem;
+}
+
+.filters {
+    text-decoration: none;
+    flex: 1;
+    position: relative;
+    line-height: 1.125rem;
+    color: inherit;
+}
+
+.clarityfilter-line-icon {
+    height: 1.25rem;
+    width: 1.25rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.25rem;
+}
+
+.filter-options {
+    width: 4.938rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-5xs);
+    font-size: var(--font-size-base);
+}
+
+.doctor-filters,
+.search-input {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.doctor-filters {
+    flex: 1;
+    align-items: center;
+    gap: var(--gap-xs);
+    min-width: 12.563rem;
+    font-size: var(--font-size-smi);
+    color: var(--secondary-text-color);
+}
+
+.search-input {
+    align-self: stretch;
+    align-items: flex-start;
+    gap: 4.812rem;
+}
+
+.doctor-profile-pic {
+    height: 2.688rem;
+    width: 2.688rem;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.dr-gaurav,
+.mbbs-fcpsuk-neurosurgeon {
+    position: relative;
+    line-height: 1.125rem;
+}
+
+.dr-gaurav {
+    font-size: var(--font-size-base);
+    font-weight: 500;
+    display: inline-block;
+    min-width: 5.188rem;
+}
+
+.mbbs-fcpsuk-neurosurgeon {
+    color: var(--color-darkslategray);
+}
+
+.view-details1 {
+    position: relative;
+    line-height: 1.125rem;
+    display: inline-block;
+    min-width: 4.938rem;
+}
+
+.view-details {
+    margin: 0 !important;
+    position: absolute;
+    top: 2rem;
+    left: 19.188rem;
+    flex-direction: row;
+    color: var(--badges-col);
+}
+
+.doctor-card-details,
+.doctor-info,
+.view-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.doctor-info {
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+    gap: var(--gap-smi);
+}
+
+.doctor-card-details {
+    flex: 1;
+    flex-direction: row;
+    gap: var(--gap-3xs);
+    min-width: 10.125rem;
+}
+
+.mdilocation-icon {
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.gandhi-nagar-kurla {
+    position: relative;
+    line-height: 1.125rem;
+}
+
+.doctor-location {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-9xs);
+    font-size: var(--font-size-sm);
+}
+
+.doctor-card-info {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xl);
+}
+
+.doctor-card-container {
+    border-radius: var(--br-5xs);
+    border: 1px solid var(--color-lightgray-200);
+    padding: var(--padding-sm) var(--padding-xl);
+}
+
+.doctor-card-container,
+.patient-upload-report-cards {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame-child {
+    height: 2.688rem;
+    width: 2.688rem;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.dr-gaurav1 {
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 1.125rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 5.188rem;
+}
+
+.mbbs-fcpsuk-neurosurgeon1 {
+    position: relative;
+    line-height: 1.125rem;
+    color: var(--color-darkslategray);
+}
+
+.view-details3 {
+    position: relative;
+    line-height: 1.125rem;
+    display: inline-block;
+    min-width: 4.938rem;
+}
+
+.view-details2 {
+    margin: 0 !important;
+    position: absolute;
+    top: 2rem;
+    left: 19.188rem;
+    flex-direction: row;
+    color: var(--badges-col);
+}
+
+.dr-gaurav-parent,
+.ellipse-parent,
+.view-details2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.dr-gaurav-parent {
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+    gap: var(--gap-smi);
+}
+
+.ellipse-parent {
+    flex: 1;
+    flex-direction: row;
+    gap: var(--gap-3xs);
+    min-width: 10.125rem;
+}
+
+.mdilocation-icon1 {
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.gandhi-nagar-kurla1 {
+    position: relative;
+    line-height: 1.125rem;
+}
+
+.mdilocation-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-9xs);
+    font-size: var(--font-size-sm);
+}
+
+.frame-div {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xl);
+}
+
+.patient-upload-report-cards-inner {
+    border-radius: var(--br-5xs);
+    border: 1px solid var(--color-lightgray-200);
+    padding: var(--padding-sm) var(--padding-xl);
+}
+
+.patient-upload-report-cards-inner,
+.patient-upload-report-cards1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame-item {
+    height: 2.688rem;
+    width: 2.688rem;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.dr-gaurav2 {
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 1.125rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 5.188rem;
+}
+
+.mbbs-fcpsuk-neurosurgeon2 {
+    position: relative;
+    line-height: 1.125rem;
+    color: var(--color-darkslategray);
+}
+
+.view-details5 {
+    position: relative;
+    line-height: 1.125rem;
+    display: inline-block;
+    min-width: 4.938rem;
+}
+
+.view-details4 {
+    margin: 0 !important;
+    position: absolute;
+    top: 2rem;
+    left: 19.188rem;
+    flex-direction: row;
+    color: var(--badges-col);
+}
+
+.dr-gaurav-group,
+.ellipse-group,
+.view-details4 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.dr-gaurav-group {
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+    gap: var(--gap-smi);
+}
+
+.ellipse-group {
+    flex: 1;
+    flex-direction: row;
+    gap: var(--gap-3xs);
+    min-width: 10.125rem;
+}
+
+.mdilocation-icon2 {
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.gandhi-nagar-kurla2 {
+    position: relative;
+    line-height: 1.125rem;
+}
+
+.mdilocation-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-9xs);
+    font-size: var(--font-size-sm);
+}
+
+.frame-parent1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xl);
+}
+
+.patient-upload-report-cards-child {
+    border-radius: var(--br-5xs);
+    border: 1px solid var(--color-lightgray-200);
+    padding: var(--padding-sm) var(--padding-xl);
+}
+
+.patient-upload-report-cards-child,
+.patient-upload-report-cards2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame-inner {
+    height: 2.688rem;
+    width: 2.688rem;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.dr-gaurav3 {
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 1.125rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 5.188rem;
+}
+
+.mbbs-fcpsuk-neurosurgeon3 {
+    position: relative;
+    line-height: 1.125rem;
+    color: var(--color-darkslategray);
+}
+
+.view-details7 {
+    position: relative;
+    line-height: 1.125rem;
+    display: inline-block;
+    min-width: 4.938rem;
+}
+
+.view-details6 {
+    margin: 0 !important;
+    position: absolute;
+    top: 2rem;
+    left: 19.188rem;
+    flex-direction: row;
+    color: var(--badges-col);
+}
+
+.dr-gaurav-container,
+.ellipse-container,
+.view-details6 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.dr-gaurav-container {
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+    gap: var(--gap-smi);
+}
+
+.ellipse-container {
+    flex: 1;
+    flex-direction: row;
+    gap: var(--gap-3xs);
+    min-width: 10.125rem;
+}
+
+.mdilocation-icon3 {
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.gandhi-nagar-kurla3 {
+    position: relative;
+    line-height: 1.125rem;
+}
+
+.mdilocation-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-9xs);
+    font-size: var(--font-size-sm);
+}
+
+.frame-parent2 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xl);
+}
+
+.patient-upload-report-cards-inner1 {
+    border-radius: var(--br-5xs);
+    border: 1px solid var(--color-lightgray-200);
+    padding: var(--padding-sm) var(--padding-xl);
+}
+
+.patient-upload-report-cards-inner1,
+.patient-upload-report-cards3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ellipse-icon {
+    height: 2.688rem;
+    width: 2.688rem;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.dr-gaurav4 {
+    position: relative;
+    font-size: var(--font-size-base);
+    line-height: 1.125rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 5.188rem;
+}
+
+.mbbs-fcpsuk-neurosurgeon4 {
+    position: relative;
+    line-height: 1.125rem;
+    color: var(--color-darkslategray);
+}
+
+.view-details9 {
+    position: relative;
+    line-height: 1.125rem;
+    display: inline-block;
+    min-width: 4.938rem;
+}
+
+.view-details8 {
+    margin: 0 !important;
+    position: absolute;
+    top: 2rem;
+    left: 19.188rem;
+    flex-direction: row;
+    color: var(--badges-col);
+}
+
+.dr-gaurav-parent1,
+.ellipse-parent1,
+.view-details8 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.dr-gaurav-parent1 {
+    flex-direction: column;
+    padding: 0;
+    position: relative;
+    gap: var(--gap-smi);
+}
+
+.ellipse-parent1 {
+    flex: 1;
+    flex-direction: row;
+    gap: var(--gap-3xs);
+    min-width: 10.125rem;
+}
+
+.mdilocation-icon4 {
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.gandhi-nagar-kurla4 {
+    position: relative;
+    line-height: 1.125rem;
+}
+
+.mdilocation-parent1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: var(--gap-9xs);
+    font-size: var(--font-size-sm);
+}
+
+.frame-parent3 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xl);
+}
+
+.patient-upload-report-cards-inner2 {
+    border-radius: var(--br-5xs);
+    border: 1px solid var(--color-lightgray-200);
+    padding: var(--padding-sm) var(--padding-xl);
+}
+
+.patient-upload-report-cards-inner2,
+.patient-upload-report-cards4 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.doctor-cards {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.5rem;
+    min-width: 19.563rem;
+    max-width: 100%;
+}
+
+.footer-content,
+.page-navigation {
+    align-self: stretch;
+    border-radius: var(--br-xs);
+    overflow: hidden;
+}
+
+.page-navigation {
+    width: 0.25rem;
+    position: relative;
+    background-color: var(--badges-col);
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.footer-content {
+    background-color: #e9e9e9;
+    padding: 0 0 17.187rem;
+}
+
+.doctors-container,
+.doctors-list,
+.footer,
+.footer-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.footer {
+    height: 25.563rem;
+}
+
+.doctors-container,
+.doctors-list {
+    max-width: 100%;
+}
+
+.doctors-container {
+    flex: 1;
+    gap: 1.625rem;
+}
+
+.doctors-list {
+    align-self: stretch;
+    padding: 0 var(--padding-3xs) 0 0.437rem;
+    box-sizing: border-box;
+    font-size: var(--font-size-smi);
+    color: var(--color-black);
+}
+
+.empty-state,
+.search-bar {
+    border-radius: var(--br-xs);
+    background-color: var(--color-white);
+    border: 1px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.search-bar {
+    flex: 1;
+    box-shadow: 0 0 43px rgba(0, 0, 0, 0.14);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 1.625rem 0.812rem 2.437rem var(--padding-3xl);
+    gap: 2.75rem;
+    min-width: 22.938rem;
+}
+
+.empty-state {
+    height: 28.313rem;
+    width: 24.813rem;
+    position: relative;
+    flex-shrink: 0;
+    min-width: 24.813rem;
+}
+
+.content,
+.search-doctors {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.search-doctors {
+    width: 62.625rem;
+    justify-content: flex-start;
+    gap: 2.625rem;
+}
+
+.content {
+    justify-content: flex-end;
+    padding: 0 var(--padding-45xl);
+    box-sizing: border-box;
+}
+
+.navigation,
+.patient-upload-report-prescrip {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-family: var(--font-poppins);
+}
+
+.navigation {
+    flex: 1;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 3.125rem;
+    max-width: calc(100% - 288px);
+    font-size: var(--font-size-base);
+    color: var(--text-heading);
+}
+
+.patient-upload-report-prescrip {
+    width: 100%;
+    position: relative;
+    /*border-radius: 20px;*/
+    background-color: var(--color-white);
+    overflow: hidden;
+    flex-direction: row;
+    align-items: flex-start;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+}
+
+.patient-upload-report-cards a {
+    text-decoration: none;
+}
+
+.dashboard-sidebar-link-parent a {
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+@media screen and (max-width: 1125px) {
+    .content {
+        padding-left: var(--padding-13xl);
+        padding-right: var(--padding-13xl);
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    .side-bar {
+        display: none;
+    }
+
+    .empty-state {
+        flex: 1;
+    }
+
+    .search-doctors {
+        flex-wrap: wrap;
+    }
+
+    .navigation {
+        max-width: 100%;
+    }
+
+    .patient-upload-report-prescrip {
+        padding-left: var(--padding-xl);
+        padding-right: var(--padding-xl);
+        box-sizing: border-box;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .side-bar {
+        padding-top: var(--padding-3xl);
+        padding-bottom: 2.375rem;
+        box-sizing: border-box;
+    }
+
+    .search-input {
+        gap: 2.375rem;
+    }
+
+    .doctor-card-info,
+    .doctors-container,
+    .frame-div,
+    .frame-parent1,
+    .frame-parent2,
+    .frame-parent3,
+    .search-input {
+        flex-wrap: wrap;
+    }
+
+    .search-bar {
+        gap: 1.375rem;
+        padding-top: var(--padding-xl);
+        padding-bottom: 1.563rem;
+        box-sizing: border-box;
+    }
+
+    .empty-state,
+    .search-bar {
+        min-width: 100%;
+    }
+
+    .search-doctors {
+        gap: 1.313rem;
+    }
+
+    .navigation {
+        gap: 1.563rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .arogya-24x7 {
+        font-size: var(--font-size-lg);
+    }
+
+    .dashboard-sidebar-link,
+    .dashboard-sidebar-link1,
+    .dashboard-sidebar-link2,
+    .frame-wrapper {
+        padding-left: var(--padding-xl);
+        padding-right: var(--padding-xl);
+        box-sizing: border-box;
+    }
+
+    .frame-parent {
+        gap: 3.188rem;
+    }
+
+    .side-bar {
+        gap: 5.813rem;
+    }
+
+    .profile-settings-notification {
+        gap: 1.063rem;
+    }
+
+    .dashboard-nav {
+        padding-left: var(--padding-xl);
+        padding-right: var(--padding-xl);
+        box-sizing: border-box;
+    }
+
+    .doctor-filters {
+        flex-wrap: wrap;
+    }
+
+    .search-input {
+        gap: 1.188rem;
+    }
+
+    .doctor-card-details,
+    .ellipse-container,
+    .ellipse-group,
+    .ellipse-parent,
+    .ellipse-parent1 {
+        flex-wrap: wrap;
+    }
+
+    .footer-content {
+        padding-bottom: 11.188rem;
+        box-sizing: border-box;
+    }
+}
+

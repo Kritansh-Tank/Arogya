@@ -1,0 +1,1775 @@
+.appointment-form-child {
+    width: 1.438rem;
+    height: 1.438rem;
+    position: relative;
+    display: none;
+}
+
+.appointment-form-item {
+    width: 1.875rem;
+    height: 1.875rem;
+    display: none;
+}
+
+.vector-icon {
+    width: 0.875rem;
+    height: 0.875rem;
+    position: relative;
+}
+
+.jammedical,
+.jammedical-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.jammedical {
+    overflow: hidden;
+    padding: var(--padding-11xs);
+    width: 1.125rem;
+    height: 1.125rem;
+}
+
+.jammedical-wrapper {
+    height: 2.125rem;
+    width: 2.125rem;
+    border-radius: var(--br-13xl);
+    background-color: var(--primary-col);
+    padding: var(--padding-5xs);
+}
+
+.arogya-24x7 {
+    text-decoration: none;
+    position: relative;
+    line-height: 1.65rem;
+    font-weight: 600;
+    color: inherit;
+    display: inline-block;
+    min-width: 6.875rem;
+    white-space: nowrap;
+}
+
+.logo-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.125rem;
+    cursor: pointer;
+    font-size: var(--font-size-lg);
+    font-family: var(--font-be-vietnam);
+}
+
+.home {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    color: inherit;
+    display: inline-block;
+    min-width: 2.813rem;
+}
+
+.nav-links-comp {
+    border-bottom: 2px solid var(--primary-col);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xs) 0 var(--padding-11xs);
+    color: var(--primary-col);
+}
+
+.home1 {
+    text-decoration: none;
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.02em;
+    color: inherit;
+    white-space: nowrap;
+}
+
+.nav-links-comp1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xs) 0;
+}
+
+.home2 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    color: inherit;
+    display: inline-block;
+    min-width: 2.375rem;
+}
+
+.nav-links-comp2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xs) 0;
+}
+
+.home3 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    color: inherit;
+    display: inline-block;
+    min-width: 4.375rem;
+    white-space: nowrap;
+}
+
+.nav-links-comp3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xs) 0;
+}
+
+.home4 {
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.02em;
+    color: inherit;
+    display: inline-block;
+    min-width: 5.313rem;
+    white-space: nowrap;
+}
+
+.nav-links-comp4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-8xs) 0;
+}
+
+.nav-links-comp-parent {
+    width: 31.188rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.062rem;
+    max-width: 100%;
+    color: var(--color-black);
+}
+
+.ionlocation-outline-icon {
+    height: 1rem;
+    width: 1rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.mumbai {
+    text-decoration: none;
+    position: relative;
+    line-height: 1.063rem;
+    color: inherit;
+    display: inline-block;
+    min-width: 3.75rem;
+}
+
+.location-icon-container,
+.mumbai-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.mumbai-wrapper {
+    justify-content: center;
+    padding: var(--padding-11xs) 0 0;
+}
+
+.location-icon-container {
+    justify-content: flex-start;
+    gap: 0.375rem;
+}
+
+.user-avatar-icon {
+    width: 0.5rem;
+    height: 0.25rem;
+    position: relative;
+    object-fit: contain;
+}
+
+.user-avatar-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location-icon-container-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    cursor: pointer;
+}
+
+.frame-child {
+    height: 2.125rem;
+    width: 2.125rem;
+    position: relative;
+    border-radius: var(--br-11xl);
+    overflow: hidden;
+    flex-shrink: 0;
+    object-fit: cover;
+}
+
+.hi-james {
+    text-decoration: none;
+    position: relative;
+    color: inherit;
+    display: inline-block;
+    min-width: 4.25rem;
+    white-space: nowrap;
+}
+
+.vector-icon1 {
+    height: 0.225rem;
+    width: 0.406rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.frame-group,
+.frame-parent,
+.user-name-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame-group,
+.user-name-container {
+    gap: var(--gap-5xs);
+}
+
+.frame-group {
+    cursor: pointer;
+}
+
+.frame-parent {
+    gap: 2.375rem;
+    color: var(--text-heading);
+}
+
+.appointment-form-inner,
+.logo-group-parent {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+}
+
+.logo-group-parent {
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+
+.appointment-form-inner {
+    background-color: var(--white);
+    border-bottom: 1px solid #e9e9e9;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content: center;
+    padding: var(--padding-lg) var(--padding-45xl) 1rem;
+    top: 0;
+    z-index: 99;
+    position: sticky;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: #030632;
+    font-family: var(--font-poppins);
+}
+
+.ellipse-icon,
+.frame-child1,
+.frame-child2,
+.frame-child3,
+.frame-child4,
+.frame-inner,
+.frame-item {
+    height: 2.875rem;
+    width: 2.875rem;
+    position: relative;
+    border-radius: 50%;
+    object-fit: cover;
+    min-height: 2.875rem;
+}
+
+.ellipse-icon,
+.frame-child1,
+.frame-child2,
+.frame-child3,
+.frame-child4,
+.frame-inner {
+    z-index: 1;
+    margin-left: -0.75rem;
+}
+
+.ellipse-icon,
+.frame-child1,
+.frame-child2,
+.frame-child3,
+.frame-child4 {
+    z-index: 2;
+}
+
+.frame-child1,
+.frame-child2,
+.frame-child3,
+.frame-child4 {
+    z-index: 3;
+}
+
+.frame-child2,
+.frame-child3,
+.frame-child4 {
+    z-index: 4;
+}
+
+.frame-child3,
+.frame-child4 {
+    z-index: 5;
+}
+
+.frame-child4 {
+    z-index: 6;
+}
+
+.ellipse-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.happy-customers {
+    position: relative;
+    font-weight: 500;
+}
+
+.frame-parent2,
+.frame-wrapper1,
+.frame-wrapper2,
+.happy-customers-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame-parent2,
+.frame-wrapper1,
+.frame-wrapper2 {
+    flex-direction: column;
+}
+
+.frame-parent2 {
+    width: 28.25rem;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.875rem;
+    max-width: 100%;
+}
+
+.time-to-make {
+    margin: 0;
+    flex: 1;
+    position: relative;
+    font-size: inherit;
+    letter-spacing: 0.02em;
+    font-weight: 600;
+    font-family: inherit;
+    display: inline-block;
+    max-width: 100%;
+}
+
+.time-to-make-an-appointment-wrapper {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs) 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.at-arogya-we {
+    height: 6.875rem;
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.02em;
+    line-height: 1.35rem;
+    display: inline-block;
+    min-height: 6.875rem;
+    max-width: 100%;
+}
+
+.at-arogya-we-understand-the-i-wrapper {
+    width: 37.813rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs) 0;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-lg);
+    color: var(--secondary-text-color);
+}
+
+.appointment-description-contai,
+.appointment-description-contai-wrapper,
+.frame-parent1 {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.appointment-description-contai-wrapper,
+.frame-parent1 {
+    justify-content: flex-start;
+}
+
+.appointment-description-contai-wrapper {
+    font-size: 2.125rem;
+}
+
+.frame-parent1 {
+    gap: var(--gap-xl);
+}
+
+.icon-placeholders {
+    position: relative;
+    letter-spacing: 0.02em;
+    line-height: 1.125rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 0.375rem;
+}
+
+.appointment-type-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs);
+}
+
+.appointment-type-rows {
+    border-radius: var(--br-11xl);
+    background-color: var(--primary-col);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-7xs);
+}
+
+.book-appointment {
+    position: relative;
+    line-height: 1.25rem;
+    color: var(--footer-col);
+    text-align: center;
+}
+
+.appointment-type-columns {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+
+.appointment-type-columns-child {
+    align-self: stretch;
+    height: 0.269rem;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.appointment-type-columns1 {
+    width: 3.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-smi-7);
+    box-sizing: border-box;
+}
+
+.div {
+    position: relative;
+    letter-spacing: 0.02em;
+    line-height: 1.125rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 0.625rem;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs);
+}
+
+.appointment-type-columns-inner {
+    border-radius: var(--br-11xl);
+    background-color: var(--primary-col);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-9xs);
+}
+
+.give-sample {
+    position: relative;
+    letter-spacing: -0.06px;
+    line-height: 1.25rem;
+    color: var(--footer-col);
+    text-align: center;
+    display: inline-block;
+    min-width: 6.313rem;
+}
+
+.appointment-type-columns2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+    z-index: 1;
+}
+
+.appointment-type-columns-item {
+    align-self: stretch;
+    height: 0.269rem;
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.appointment-type-columns3 {
+    width: 3.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 0 0 var(--padding-smi-7);
+    box-sizing: border-box;
+}
+
+.div1 {
+    position: relative;
+    letter-spacing: 0.02em;
+    line-height: 1.125rem;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 0.625rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-5xs);
+}
+
+.appointment-type-columns-inner1 {
+    border-radius: var(--br-11xl);
+    background-color: var(--primary-col);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-9xs);
+}
+
+.get-report {
+    flex: 1;
+    position: relative;
+    line-height: 1.25rem;
+    color: var(--footer-col);
+    text-align: center;
+    display: inline-block;
+    min-width: 5.313rem;
+}
+
+.appointment-type-columns4 {
+    width: 7.938rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-5xs);
+}
+
+.appointment-type-columns-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+    max-width: 100%;
+    color: var(--white);
+}
+
+.happy-customers-content,
+.happy-customers-content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.happy-customers-content {
+    align-self: stretch;
+    gap: 2.187rem;
+}
+
+.happy-customers-content-wrapper {
+    flex: 1;
+    padding: 9.625rem 0 0;
+    box-sizing: border-box;
+    min-width: 26.063rem;
+}
+
+.i-would-like {
+    height: 1.438rem;
+    position: relative;
+    display: inline-block;
+    min-width: 6.5rem;
+}
+
+.booking-option-column-child {
+    height: 1.438rem;
+    width: 1.438rem;
+    position: relative;
+    min-height: 1.438rem;
+}
+
+.book-my-appointment {
+    position: relative;
+    white-space: nowrap;
+}
+
+.book-my-appointment-wrapper,
+.booking-option-column {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.book-my-appointment-wrapper {
+    flex-direction: column;
+    padding: var(--padding-12xs) 0 0;
+}
+
+.booking-option-column {
+    flex-direction: row;
+    gap: var(--gap-3xs);
+}
+
+.border {
+    width: 1.125rem;
+    height: 1.125rem;
+    position: relative;
+    border-radius: 50%;
+    border: 1px solid var(--text-heading);
+    box-sizing: border-box;
+}
+
+.border-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-11xs-5) 0 0;
+}
+
+.query {
+    position: relative;
+    display: inline-block;
+    min-width: 2.75rem;
+}
+
+.frame-parent3,
+.frame-wrapper3 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.frame-parent3 {
+    flex-direction: row;
+    gap: var(--gap-3xs);
+}
+
+.frame-wrapper3 {
+    flex-direction: row;
+    /* padding: var(--padding-12xs) 0 0; */
+    gap: var(--gap-3xs);
+}
+
+.booking-option-column-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-sm);
+}
+
+.appointment-preference-contain {
+    width: 19.813rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-base);
+}
+
+.select-city {
+    height: 1.313rem;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 6.313rem;
+    white-space: nowrap;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-sm);
+}
+
+.input-fields-comp,
+.select-city-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-city-wrapper {
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% - 10.5px);
+    left: 1.188rem;
+}
+
+.input-fields-comp {
+    align-self: stretch;
+    height: 3.313rem;
+    border-radius: var(--br-5xs);
+    border: 1px solid var(--color-silver);
+    box-sizing: border-box;
+    padding: var(--padding-base-5) 15.437rem var(--padding-base-5) var(--padding-xl);
+    position: relative;
+}
+
+.select-city1 {
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 2.5rem;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-sm);
+}
+
+.input-fields-comp1,
+.select-city-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-city-container {
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% - 10.5px);
+    left: 1.25rem;
+}
+
+.input-fields-comp1 {
+    align-self: stretch;
+    height: 3.313rem;
+    border-radius: var(--br-5xs);
+    border: 1px solid var(--color-silver);
+    box-sizing: border-box;
+    padding: var(--padding-base-5) 19.125rem var(--padding-base-5) var(--padding-xl);
+    position: relative;
+}
+
+.select-city2 {
+    height: 1.313rem;
+    position: relative;
+    letter-spacing: 0.02em;
+    display: inline-block;
+    min-width: 7.063rem;
+    white-space: nowrap;
+    border: 0;
+    outline: 0;
+    background-color: transparent;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-sm);
+}
+
+.input-fields-comp2,
+.select-city-frame {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-city-frame {
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% - 10.5px);
+    left: 1.156rem;
+}
+
+.input-fields-comp2 {
+    align-self: stretch;
+    height: 3.313rem;
+    border-radius: var(--br-5xs);
+    border: 1px solid var(--color-silver);
+    box-sizing: border-box;
+    padding: var(--padding-base-5) 14.75rem var(--padding-base-5) var(--padding-xl);
+    position: relative;
+}
+
+.input-fields-comp3,
+.inputs-fields {
+    align-self: stretch;
+    display: flex;
+    align-items: flex-start;
+}
+
+.input-fields-comp3 {
+    border: 1px solid var(--color-silver);
+    background-color: transparent;
+    height: 8.813rem;
+    width: auto;
+    outline: 0;
+    border-radius: var(--br-5xs);
+    box-sizing: border-box;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.937rem 1.062rem;
+    font-family: var(--font-poppins);
+    font-size: var(--font-size-sm);
+    color: var(--secondary-text-color);
+}
+
+.inputs-fields {
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-15xl);
+}
+
+.select-city3 {
+    position: relative;
+    font-size: var(--font-size-base);
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-family: var(--font-poppins);
+    color: var(--white);
+    text-align: center;
+    width: 10rem;
+}
+
+.input-fields-comp4,
+.select-city-wrapper1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-city-wrapper1 {
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 78px);
+}
+
+.input-fields-comp4 {
+    cursor: pointer;
+    border: 0;
+    padding: 0.687rem 0;
+    background-color: var(--primary-col);
+    align-self: stretch;
+    height: 2.875rem;
+    border-radius: var(--br-13xl);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.appointment-preference-contain-parent,
+.inputs-register-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.inputs-register-btn {
+    align-self: stretch;
+    gap: var(--gap-15xl);
+    font-size: var(--font-size-sm);
+    color: var(--secondary-text-color);
+}
+
+.appointment-preference-contain-parent {
+    width: 29rem;
+    box-shadow: 0 0 32px rgba(14, 199, 190, 0.22);
+    border-radius: var(--br-11xl);
+    background-color: var(--white);
+    padding: 2.5rem 3.062rem;
+    box-sizing: border-box;
+    gap: 1.875rem;
+    min-width: 29rem;
+    max-width: 100%;
+    z-index: 1;
+    font-size: var(--font-size-mini);
+}
+
+.frame-div,
+.frame-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.frame-div {
+    width: 70.688rem;
+    justify-content: flex-start;
+    gap: 1.562rem;
+}
+
+.frame-wrapper {
+    align-self: stretch;
+    justify-content: center;
+    padding: 0 1.562rem 0 var(--padding-xl);
+    box-sizing: border-box;
+}
+
+.vector-icon2 {
+    width: 0.875rem;
+    height: 0.875rem;
+    position: relative;
+}
+
+.jammedical-container,
+.jammedical1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.jammedical1 {
+    overflow: hidden;
+    padding: var(--padding-11xs);
+    width: 1.125rem;
+    height: 1.125rem;
+}
+
+.jammedical-container {
+    height: 1.875rem;
+    width: 1.875rem;
+    border-radius: var(--br-13xl);
+    background-color: var(--badges-col);
+    padding: var(--padding-7xs);
+}
+
+.arogya-24x71 {
+    height: 2.063rem;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.logo-group1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.187rem;
+}
+
+.aarogya24x7-is-initiative {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-sm);
+    font-weight: 300;
+}
+
+.footer-company-info {
+    width: 15.188rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1.375rem;
+    font-size: 1.375rem;
+}
+
+.cbc-tests1,
+.tests {
+    position: relative;
+    display: inline-block;
+}
+
+.tests {
+    font-weight: 500;
+    min-width: 3rem;
+}
+
+.cbc-tests1 {
+    min-width: 5.25rem;
+    flex-shrink: 0;
+    white-space: nowrap;
+}
+
+.cbc-tests {
+    height: 1.438rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.diabetes-tests {
+    width: 9.138rem;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.diabetes {
+    width: 6.813rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lipid-profile {
+    line-height: 1.45rem;
+    min-width: 5.375rem;
+}
+
+.lipid-profile,
+.liver-profile,
+.thyroid-tests {
+    position: relative;
+    display: inline-block;
+}
+
+.liver-profile {
+    height: 1.438rem;
+    min-width: 5.313rem;
+}
+
+.thyroid-tests {
+    line-height: 1.45rem;
+    min-width: 6.25rem;
+}
+
+.urinalysis {
+    width: 5.563rem;
+    display: inline-block;
+}
+
+.cultures,
+.hemoglobin-a1c,
+.urinalysis {
+    position: relative;
+}
+
+.cultures {
+    width: 5.563rem;
+    display: inline-block;
+}
+
+.tests-list,
+.tests-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.tests-list {
+    gap: var(--gap-5xs);
+    font-size: var(--font-size-mini);
+}
+
+.tests-parent {
+    gap: var(--gap-smi);
+}
+
+.health-packages {
+    position: relative;
+    line-height: 1.7rem;
+    font-weight: 500;
+}
+
+.basic-health-packages {
+    width: 22.025rem;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 208%;
+}
+
+.basic {
+    width: 10.625rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.advanced-health-packages {
+    width: 32.656rem;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 253%;
+}
+
+.annual {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0;
+}
+
+.advance-health-package {
+    width: 13.781rem;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+.annual1,
+.health-packages-parent,
+.packages-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.annual1 {
+    width: 11.813rem;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.health-packages-parent,
+.packages-list {
+    flex-direction: column;
+}
+
+.packages-list {
+    align-self: stretch;
+    gap: var(--gap-5xs);
+    font-size: var(--font-size-mini);
+}
+
+.health-packages-parent {
+    width: 12.938rem;
+    gap: var(--gap-smi);
+}
+
+.contact-us {
+    height: 1.688rem;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    min-width: 6.5rem;
+}
+
+.head-office-1st-floor {
+    margin-block-start: 0;
+    margin-block-end: 5px;
+}
+
+.email-arogyagmailcom {
+    margin: 0;
+}
+
+.head-office-1st-floor-container {
+    align-self: stretch;
+    height: 12.313rem;
+    position: relative;
+    font-size: var(--font-size-mini);
+    line-height: 1.5rem;
+    display: inline-block;
+}
+
+.contact-us-parent {
+    width: 16.625rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-smi);
+}
+
+.footer-company-info-parent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+
+.frame-child5,
+.separtor-line {
+    align-self: stretch;
+    position: relative;
+}
+
+.frame-child5 {
+    height: 0.063rem;
+    background-color: var(--white);
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.separtor-line {
+    flex: 1;
+    max-width: 100%;
+}
+
+.separtor-line-wrapper {
+    align-self: stretch;
+    height: 0.063rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-12xs);
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+.fayoutube-icon,
+.icbaseline-facebook-icon,
+.mditwitter-icon,
+.uillinkedin-icon {
+    height: 1.5rem;
+    width: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    flex-shrink: 0;
+    min-height: 1.5rem;
+}
+
+.fayoutube-icon {
+    width: 1.356rem;
+}
+
+.social-media-icons {
+    width: 12.606rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 2.25rem;
+}
+
+.copyright-aarogya24x7 {
+    height: 1.313rem;
+    position: relative;
+    display: inline-block;
+}
+
+.copyright-info,
+.social-media-icons-parent {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+}
+
+.copyright-info {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: var(--padding-11xs-5) 0 0;
+    box-sizing: border-box;
+}
+
+.social-media-icons-parent {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--gap-xl);
+}
+
+.footer-frame,
+.frame-parent4,
+.frame-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+}
+
+.frame-parent4 {
+    align-self: stretch;
+    gap: 1.343rem;
+    font-size: var(--font-size-sm);
+}
+
+.footer-frame,
+.frame-section {
+    text-align: left;
+    font-family: var(--font-poppins);
+}
+
+.footer-frame {
+    align-self: stretch;
+    background-color: var(--footer-col);
+    overflow: hidden;
+    padding: 3.25rem 3.75rem 1.437rem var(--padding-45xl);
+    box-sizing: border-box;
+    gap: 3.5rem;
+    font-size: var(--font-size-lg);
+    color: var(--white);
+}
+
+.frame-section {
+    width: 100%;
+    gap: 8.125rem;
+    flex-shrink: 0;
+    font-size: var(--font-size-base);
+    color: var(--text-heading);
+}
+
+.test-package-top {
+    align-self: stretch;
+    flex: 1;
+    position: relative;
+    border-radius: var(--br-xs) var(--br-xs) 0 0;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+}
+
+.cbcesr-tests,
+.includes-3-tests {
+    position: relative;
+    display: inline-block;
+}
+
+.cbcesr-tests {
+    align-self: stretch;
+    height: 1.688rem;
+    font-weight: 500;
+    white-space: nowrap;
+}
+
+.includes-3-tests {
+    width: 6rem;
+    height: 1.125rem;
+    font-size: var(--font-size-xs);
+}
+
+.test-package-content,
+.test-package-details {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.test-package-details {
+    flex: 1;
+    flex-direction: column;
+}
+
+.test-package-content {
+    width: 9.75rem;
+    flex-direction: row;
+    padding: 0 var(--padding-3xs) var(--padding-lg);
+    box-sizing: border-box;
+}
+
+.rs-500 {
+    align-self: stretch;
+    height: 1.313rem;
+    position: relative;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.original-price {
+    width: 3.125rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-8xs) 0 0;
+    box-sizing: border-box;
+}
+
+.book-appointment1 {
+    height: 1.125rem;
+    flex: 1;
+    position: relative;
+    display: inline-block;
+}
+
+.book-appointment-btn {
+    width: 8.188rem;
+    border-radius: 4px;
+    background-color: var(--primary-col);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-7xs) 0.562rem;
+    box-sizing: border-box;
+    white-space: nowrap;
+    font-size: var(--font-size-xs);
+    color: var(--white);
+}
+
+.rs-1000 {
+    height: 0.938rem;
+    flex: 1;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.price-separator-icon {
+    height: 0.325rem;
+    width: 2.294rem;
+    position: absolute;
+    margin: 0 !important;
+    bottom: 0.238rem;
+    left: 0;
+    object-fit: contain;
+    z-index: 1;
+}
+
+.discounted-price {
+    width: 2.375rem;
+    margin: 0 !important;
+    position: absolute;
+    bottom: 0.438rem;
+    left: 3.25rem;
+    justify-content: flex-start;
+    font-size: 0.625rem;
+    color: #555;
+}
+
+.discounted-price,
+.test-package-price-details,
+.test-package-pricing {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.test-package-price-details {
+    flex: 1;
+    justify-content: space-between;
+    position: relative;
+    gap: var(--gap-xl);
+}
+
+.test-package-pricing {
+    align-self: stretch;
+    justify-content: flex-start;
+    padding: 0 0.75rem 0 var(--padding-3xs);
+    font-size: var(--font-size-sm);
+}
+
+.test-packages-ui,
+.test-packages-ui-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.test-packages-ui {
+    align-self: stretch;
+    height: 17.688rem;
+    box-shadow: 0 0 20px rgba(14, 199, 190, 0.25);
+    border-radius: var(--br-xs);
+    background-color: var(--white);
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 0 1.187rem;
+    box-sizing: border-box;
+    gap: 0.562rem;
+}
+
+.test-packages-ui-wrapper {
+    height: 46.625rem;
+    width: 16.375rem;
+}
+
+.appointment-form,
+.frame-container,
+.test-packages-ui-wrapper {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.frame-container {
+    align-self: stretch;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 0;
+    box-sizing: border-box;
+    gap: 5.312rem;
+    max-width: 100%;
+    flex-shrink: 0;
+    text-align: left;
+    font-size: var(--font-size-lg);
+    color: var(--text-heading);
+    font-family: var(--font-poppins);
+}
+
+.appointment-form {
+    width: 100%;
+    position: relative;
+    background-color: var(--light-yellow);
+    overflow: hidden;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5rem;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    padding: 10px 20px;
+    font-family: 'Poppins';
+}
+
+.dropdown-menu li:hover {
+    background-color: #f0f0f0;
+}
+
+.dropdown-menu a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+@media screen and (max-width: 1350px) {
+    .frame-container {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1125px) {
+    .nav-links-comp-parent {
+        display: none;
+    }
+
+    .appointment-preference-contain-parent {
+        flex: 1;
+    }
+
+    .frame-div {
+        flex-wrap: wrap;
+    }
+
+    .footer-company-info-parent {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .nav-links-comp-parent {
+        gap: var(--gap-base);
+    }
+
+    .appointment-form-inner {
+        padding-left: var(--padding-13xl);
+        padding-right: var(--padding-13xl);
+        box-sizing: border-box;
+    }
+
+    .frame-parent2 {
+        flex-wrap: wrap;
+    }
+
+    .time-to-make {
+        font-size: 1.688rem;
+    }
+
+    .appointment-description-contai-wrapper {
+        gap: var(--gap-base);
+    }
+
+    .appointment-type-columns-parent {
+        flex-wrap: wrap;
+    }
+
+    .happy-customers-content {
+        gap: var(--gap-mid);
+    }
+
+    .happy-customers-content-wrapper {
+        padding-top: 6.25rem;
+        box-sizing: border-box;
+        min-width: 100%;
+    }
+
+    .appointment-preference-contain-parent {
+        padding-top: var(--padding-7xl);
+        padding-bottom: var(--padding-7xl);
+        box-sizing: border-box;
+        min-width: 100%;
+    }
+
+    .social-media-icons-parent {
+        flex-wrap: wrap;
+    }
+
+    .footer-frame {
+        gap: 1.75rem;
+        padding: 2.125rem 1.875rem var(--padding-xl) var(--padding-13xl);
+        box-sizing: border-box;
+    }
+
+    .frame-section {
+        gap: 4.063rem;
+    }
+
+    .frame-container {
+        gap: 2.625rem;
+    }
+
+    .appointment-form {
+        gap: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .frame-parent {
+        gap: 1.188rem;
+    }
+
+    .time-to-make {
+        font-size: 1.25rem;
+    }
+
+    .booking-option-column-parent {
+        flex-wrap: wrap;
+    }
+
+    .inputs-fields,
+    .inputs-register-btn {
+        gap: var(--gap-mid);
+    }
+
+    .appointment-preference-contain-parent {
+        gap: 0.938rem;
+        padding-left: var(--padding-5xl);
+        padding-right: var(--padding-5xl);
+        box-sizing: border-box;
+    }
+
+    .arogya-24x71 {
+        font-size: var(--font-size-lg);
+    }
+
+    .frame-section {
+        gap: 2rem;
+    }
+
+    .frame-container {
+        gap: 1.313rem;
+    }
+
+    .appointment-form {
+        gap: var(--gap-xl);
+    }
+}

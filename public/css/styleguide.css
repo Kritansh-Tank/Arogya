@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-poppins: "Poppins";
+    --font-gilroy-medium: "Poppins-Medium";
+    --font-gilroy-semibold: "Poppins-SemiBold";
+    --font-gilroy-regular: "Poppins-Regular";
+    --font-gilroy-bold: "Poppins-Bold";
+    --font-be-vietnam: "Poppins";
+  
+    /* font sizes */
+    --font-size-sm: 0.875rem;
+    --font-size-mini: 0.938rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xs: 0.75rem;
+    --font-size-7xl: 1.625rem;
+    --font-size-2xl: 1.313rem;
+    --font-size-5xl: 1.5rem;
+    --font-size-lgi: 1.188rem;
+    --font-size-base: 1rem;
+    --font-size-xl: 1.25rem;
+  
+    /* Colors */
+    --white: #fff;
+    --badges-col: #5da1f6;
+    --footer-col: rgba(16, 78, 152, 0.94);
+    --secondary-text-color: #147771;
+    --color-black: #000;
+    --color-gray-100: #030632;
+    --text-heading: #030631;
+    --color-gray-200: rgba(0, 0, 0, 0.9);
+    --color-snow: #fcfaf7;
+    --primary-col: #1778f2;
+    --color-dimgray-100: #545454;
+    --color-dimgray-200: #535353;
+    --color-gainsboro: #dadada;
+    --shadow: #0ec7be;
+    --color-darkslategray: #3e3e3e;
+  
+    /* Gaps */
+    --gap-xl: 1.25rem;
+    --gap-smi: 0.812rem;
+    --gap-5xs: 0.5rem;
+    --gap-3xl: 1.375rem;
+    --gap-6xs: 0.437rem;
+    --gap-4xs: 0.562rem;
+    --gap-33xl: 3.25rem;
+    --gap-7xl: 1.625rem;
+    --gap-13xl: 2rem;
+    --gap-base: 1rem;
+    --gap-xs: 0.75rem;
+    --gap-4xl: 1.437rem;
+    --gap-lg-5: 1.156rem;
+    --gap-3xs: 0.625rem;
+    --gap-mid: 1.062rem;
+    --gap-16xl: 2.187rem;
+    --gap-base-5: 1.031rem;
+    --gap-9xs: 0.25rem;
+    --gap-4xs-5: 0.531rem;
+    --gap-11xl: 1.875rem;
+    --gap-9xs-5: 0.218rem;
+  
+    /* Paddings */
+    --padding-xs: 0.75rem;
+    --padding-33xl: 3.25rem;
+    --padding-41xl: 3.75rem;
+    --padding-11xl: 1.875rem;
+    --padding-xl: 1.25rem;
+    --padding-11xs-5: 0.193rem;
+    --padding-12xs: 0.062rem;
+    --padding-11xs: 0.125rem;
+    --padding-137xl: 9.75rem;
+    --padding-9xs: 0.25rem;
+    --padding-6xl: 1.562rem;
+    --padding-4xs: 0.562rem;
+    --padding-smi: 0.812rem;
+    --padding-10xs: 0.187rem;
+    --padding-mini: 0.937rem;
+    --padding-3xs: 0.625rem;
+    --padding-base: 1rem;
+    --padding-20xl: 2.437rem;
+    --padding-mini-5: 0.906rem;
+    --padding-5xs: 0.5rem;
+    --padding-7xs-5: 0.343rem;
+    --padding-lg: 1.125rem;
+    --padding-lgi: 1.187rem;
+    --padding-8xs: 0.312rem;
+    --padding-10xs-5: 0.156rem;
+    --padding-8xl: 1.687rem;
+    --padding-6xs: 0.437rem;
+    --padding-12xl: 1.937rem;
+  
+    /* Border radiuses */
+    --br-xs: 12px;
+    --br-13xl: 32px;
+    --br-11xl: 30px;
+    --br-7xs: 6px;
+    --br-5xs: 8px;
+  }
+  

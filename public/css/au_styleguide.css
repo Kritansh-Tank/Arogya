@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-poppins: Poppins;
+    --font-be-vietnam: "Be Vietnam";
+  
+    /* font sizes */
+    --font-size-sm: 0.875rem;
+    --font-size-mini: 0.938rem;
+    --font-size-lg: 1.125rem;
+    --font-size-13xl: 2rem;
+    --font-size-lgi: 1.188rem;
+    --font-size-7xl: 1.625rem;
+    --font-size-base: 1rem;
+  
+    /* Colors */
+    --white: #fff;
+    --footer-col: rgba(16, 78, 152, 0.94);
+    --badges-col: #5da1f6;
+    --shadow: #0ec7be;
+    --text-heading: #030631;
+    --light-yellow: #f7f1e8;
+    --primary-col: #1778f2;
+    --color-black: #000;
+  
+    /* Gaps */
+    --gap-17xl: 2.25rem;
+    --gap-xl: 1.25rem;
+    --gap-smi: 0.812rem;
+    --gap-5xs: 0.5rem;
+    --gap-43xl: 3.875rem;
+    --gap-mini: 0.937rem;
+    --gap-12xl: 1.937rem;
+  
+    /* Paddings */
+    --padding-41xl: 3.75rem;
+    --padding-xl: 1.25rem;
+    --padding-11xs: 0.125rem;
+    --padding-20xl: 2.437rem;
+    --padding-12xl: 1.937rem;
+    --padding-8xs: 0.312rem;
+  
+    /* Border radiuses */
+    --br-13xl: 32px;
+    --br-xs: 12px;
+  }
+  
