@@ -146,14 +146,14 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
     <script type="module">
         const firebaseConfig = {
-            apiKey: "AIzaSyA6C2MY6IZZcrzrIO3yO-y7Q39vmCZoTUQ",
-            authDomain: "tester-57020.firebaseapp.com",
-            databaseURL: "https://tester-57020-default-rtdb.firebaseio.com",
-            projectId: "tester-57020",
-            storageBucket: "tester-57020.appspot.com",
-            messagingSenderId: "1057263461206",
-            appId: "1:1057263461206:web:253d5bd4d016d9220c2cf7",
-            measurementId: "G-BXJYKG1CFN"
+            apiKey: "your-api-key",
+            authDomain: "your-project-id.firebaseapp.com",
+            databaseURL: "your-database-url",
+            projectId: "your-project-id",
+            storageBucket: "your-project-id.appspot.com",
+            messagingSenderId: "your-sender-id",
+            appId: "your-app-id",
+            measurementId: "your-measurement-id"
         };
 
         firebase.initializeApp(firebaseConfig);
